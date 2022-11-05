@@ -10,9 +10,9 @@ abstract: 'Bioterrorism has created a need for the rapid analysis of samples whi
 output: 
   pdf_document:
     toc: true
-    toc_depth: 1
-documentclass: report 
-bibliography: /home/danvogel/R/marloweU/capstone.bib
+    toc_depth: 2
+documentclass: report
+bibliography: capstone.bib
 #nocite: '@*'
 header-includes:
   \usepackage{setspace}\doublespacing
@@ -24,7 +24,6 @@ header-includes:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
 \newpage
 
 \chapter{Introduction}
@@ -59,7 +58,7 @@ Aim 2 is to improve the accuracy and performance of the MARLOWE tool by updating
 
 Aim 2. I will download subsets from UniProt by using queries which will contain the compounds in the test samples, milk, abrin, and castor bean. I will then compare the resulting MARLOWE/UniProt analysis to that done with the MARLOWE/KEGG to validate the sample was found and compare the scoring. This will lead to a process which can be used to update the database as needed, in the future. As more entries are added to UniProt or other protein databases are identified, this process can be repeated. After validation of the extraction and database creation, we can develop a repeatable procedure to download the entire UniProt database. Additionally, if I can obtain access to the current KEGG.JP FTP site, I will create an updated MARLOWE/KEGG database to validate that “abrin” can now be located using the original MARLOWE code. 
 
-# Resources, Tools, and Research Methodology  
+\chapter{Resources, Tools, and Research Methodology} 
 
 I am in the process of installing MARLOWE on a home server running Ubuntu 20.04LTS which has been upgraded with a high speed NVME SSD to store the database. I have also installed it on a Windows workstation at NBACC. MARLOWE was designed to run with Microsoft Windows® but I have converted it to run on Linux. I will test it on Ubuntu 20.04LTS and CentOS 7, and Red Hat RHEL 8 Linux. 
 
@@ -72,17 +71,20 @@ I will validate the output of MARLOWE (current version MySQL 8.0 on Windows 10, 
 
 \chapter{Results}
 
- Describe the results of the proposed project work. 
+Describe the results of the proposed project work. 
 
-\chapter{Discussion}
+\section{Discussion}
 
- Putting the results in context 
+Putting the results in context 
 
 \chapter{Summary and Future Work}
 
- Alternate digestion enzyme 
+\section{Alternate digestion enzyme} 
+Currently MARLOWE only supports Trypsin digest. We can construct another version of the database where the peptides have been digested with an alternate protease enzyme.
+\section{Software Improvements}
+GUI interface would be possible by creating an R-Shiny version where the scientist could select their input files using a GUI and then the pipeline would run automatically and produce and output report that could be viewed and downloaded.
+Automated database updates via API would allow adding new organisms to the database by pulling from UniProt via API and inserting into the MARLOWE candidate databases.
 
- GUI interface, online version, automated database updates via API 
  
   
   
