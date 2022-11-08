@@ -49,8 +49,6 @@ We will rebuild the MARLOWE analysis software database from UniProt, a publicly 
 \chapter{Literature Review and Previous work}
 MARLOWE compares these peptides to a MySQL database which has been constructed from the Japanese KEGG.jp protein database [@kanehisa2002kegg]. The construction of the database requires taking the long amino acid sequences from each organism and digesting in-silico using an R subroutine, into smaller peptide sequences that match the digested lab sample. MARLOWE then uses an algorithm which compares the MS/PEAKS® data with the database peptides and makes a list of candidate organisms that may be contained in the sample. It produces scores and a heat map showing the most likely hits (Figure 1)
 
-![Heat Map Communis Ricinis Sample on KEGG](kegg_heatmap.jpeg)
-
 \chapter{Specific Aims}
 Aim 1 is to create a new R package which will extract required fields from publicly available UniProt data [\@10.1093/nar/gkaa1100] in fasta format. A major weakness of the MARLOWE tool is that the database was built using protein data from kegg.jp, more than 2 years ago. The database cannot be updated without a paid subscription to the kegg.jp FTP site which costs \$25,000 per year for a single site license. The kegg data extraction subroutines in MARLOWE rely on regular expression to parse human readable .ent files from kegg.jp. The .ent files are not standard so these subroutines are not useful for any other sources [@csordas2012pride]. The fasta format is a standard so the R data extraction package will be adaptable to UniProt or other protein databases where fasta output is available. Successful adoption of the UniProt data will make MARLOWE cheaper and more accessible for use as licensed access to the kegg.jp FTP site is no longer required.
 
@@ -67,7 +65,7 @@ I have loaded the MARLOWE code into a GitHub.com repo so I can fork from the cur
 
 I will validate the output of MARLOWE (current version MySQL 8.0 on Windows 10, R version 3.6.1 ) with a few samples, including the Abrin sample, Milk, and Castor bean. To perform the analysis of the two databases, MARLOWE will be run against each database with the same samples. I will compare the output with the actual contents of the sample and make a conclusion on performance or improvements needed.
 
-![Fasta Communis Ricinis Sample](castor.head.PNG)
+![Fasta Communis Ricinis Sample](figures/castor.head.PNG)
 
 \chapter{Results}
 Describe the results of the proposed project work.
@@ -80,5 +78,14 @@ Putting the results in context
 Currently MARLOWE only supports Trypsin digest. We can construct another version of the database where the peptides have been digested with an alternate protease enzyme.
 \section{Software Improvements}
 GUI interface would be possible by creating an R-Shiny version where the scientist could select their input files using a GUI and then the pipeline would run automatically and produce and output report that could be viewed and downloaded. Automated database updates via API would allow adding new organisms to the database by pulling from UniProt via API and inserting into the MARLOWE candidate databases.
+
+# Figures
+![Heat Map Communis Ricinis Rcom_9 Sample on KEGG](figures/kegg/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55_org_heatmap_min_o_1_min_p_1.jpeg)
+![Heat Map Communis Ricinis Rcom_9 Sample on UniProt](figures/uniprot/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55_org_heatmap_min_o_1_min_p_1.jpeg)
+
+![Heat Map Communis Ricinis Rcom_GC4 Sample on KEGG](figures/kegg/Rcom_GCH4_1_2_03Jun16_Samwise_16-03-32_org_heatmap_min_o_1_min_p_1.jpeg)
+
+
+![Heat Map Communis Ricinis Rcom_GC4 Sample on UniProt](figures/uniprot/Rcom_GCH4_1_2_03Jun16_Samwise_16-03-32_org_heatmap_min_o_1_min_p_1.jpeg)
 
 # References {.unnumbered}
