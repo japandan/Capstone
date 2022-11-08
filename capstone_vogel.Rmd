@@ -12,6 +12,7 @@ output:
   pdf_document:
     toc: true
     toc_depth: 2
+
 documentclass: report
 #  \usepackage{titlesec}
 #  \titleformat{\chapter}{\bfseries\Huge}{\chaptername~\thechapter.}{0.5em}{}
@@ -74,18 +75,24 @@ Describe the results of the proposed project work.
 Putting the results in context
 
 \chapter{Summary and Future Work}
+
 \section{Alternate digestion enzyme}
+
 Currently MARLOWE only supports Trypsin digest. We can construct another version of the database where the peptides have been digested with an alternate protease enzyme.
+
 \section{Software Improvements}
 GUI interface would be possible by creating an R-Shiny version where the scientist could select their input files using a GUI and then the pipeline would run automatically and produce and output report that could be viewed and downloaded. Automated database updates via API would allow adding new organisms to the database by pulling from UniProt via API and inserting into the MARLOWE candidate databases.
 
 # Figures
-![Heat Map Communis Ricinis Rcom_9 Sample on KEGG](figures/kegg/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55_org_heatmap_min_o_1_min_p_1.jpeg)
-![Heat Map Communis Ricinis Rcom_9 Sample on UniProt](figures/uniprot/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55_org_heatmap_min_o_1_min_p_1.jpeg)
 
-![Heat Map Communis Ricinis Rcom_GC4 Sample on KEGG](figures/kegg/Rcom_GCH4_1_2_03Jun16_Samwise_16-03-32_org_heatmap_min_o_1_min_p_1.jpeg)
+![Heat Map Communis Ricinis Rcom_9 Sample on KEGG](figures/kegg/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55_org_heatmap_min_o_1_min_p_1.jpeg){width=70%}
+
+![Heat Map Communis Ricinis Rcom_9 Sample on UniProt](figures/uniprot/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55_org_heatmap_min_o_1_min_p_1.jpeg){width=70%}
 
 
-![Heat Map Communis Ricinis Rcom_GC4 Sample on UniProt](figures/uniprot/Rcom_GCH4_1_2_03Jun16_Samwise_16-03-32_org_heatmap_min_o_1_min_p_1.jpeg)
+
+![Heat Map Communis Ricinis Rcom_GC4 Sample on KEGG](figures/kegg/Rcom_GCH4_1_2_03Jun16_Samwise_16-03-32_org_heatmap_min_o_1_min_p_1.jpeg){width=70%}
+
+![Heat Map Communis Ricinis Rcom_GC4 Sample on UniProt](figures/uniprot/Rcom_GCH4_1_2_03Jun16_Samwise_16-03-32_org_heatmap_min_o_1_min_p_1.jpeg){width=70%}
 
 # References {.unnumbered}
