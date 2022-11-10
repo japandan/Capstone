@@ -71,7 +71,46 @@ The FASTA format for the UniProt database contains the minimum required fields f
 ![Fasta Communis Ricinis Sample](figures/castor.head.PNG)
 
 \chapter{Results}
-Describe the results of the proposed project work.
+I built small "candidate" database with UniProt Proteome data for 9 organisms that were contained in the lab samples that were analysed with Mass Spectrometry. Building the database involves downloading and parsing fasta proteome files, then inserting into the database along with the amino acid sequences for all proteins and the peptides that result from digesting these proteins with Trypsin. A final step is to upload NCBI taxonomy data for all organisms used to produce the MARLOWE heatmaps.
+
+```{r table2, echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
+tabl <- "
+
+| name                  | taxon_id |protein_count  | peptide_count | strong_peptide_count |
+|-----------------------|----------|---------------|:-------------:|---------------------:|
+| Bos taurus            |     9913 |         23844 |        652649 |               554285 |
+| Citrus clementina     |    85681 |         24934 |        586056 |               482274 |
+| Citrus sinensis       |     2711 |         28128 |        572368 |               471745 |
+| Crassostrea gigas     |    29159 |         25998 |        687216 |               624744 |
+| Crassostrea virginica |     6565 |         33719 |        876976 |               805672 |
+| Ricinus communis      |     3988 |         31219 |        630447 |               520219 |
+| Pseudomonas fragi     |      296 |          4324 |         85668 |                76797 |
+| Salvelinus namaycush  |     8040 |         35973 |        696618 |               599782 |
+| Chlamydia pneumoniae  |    83558 |          1052 |         23031 |                20258 | 
+"
+cat(tabl) # output the table in a format good for HTML/PDF/docx conversion
+```
+I ran the MARLOWE software with PEAKS output from 8 datasets which contained organism that are in the database. Ricinus communis was contained in 4 of the samples and the other 4 were random samples created for testing to include milk, orange juice, oyster, and fish. MARLOWE was able to detect the sample with a strong signal score for 7 of the tests.
+
+Poor results where evident in 555558-DeNovo, a R. communis sample, where B. taurus (4) and S. namaycush (3) both scored slightly higher than R. communis (2). However these low scores are all below the threshold for detection. In the Orange Juice sample, the 2 Citrus organisms scored high, (130, 62) but there was also a presence of R. communis (28) detected. Heatmaps produced as the final output by MARLOWE clearly show the presence of the organisms contained in each sample.
+Comparison with KEGG output for Sample 555558-DeNovo will indicate if there is an issue with this data.
+
+```{r table3, echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
+tabl3 <- "
+|Sample Name           |UniProt |   KEGG  | Next Closest
+|----------------------|--------|:-------:|:-------------
+|R. communis 9 sample  | 164    |   111   |   1
+|R. communis GC4       | 654    |   476   |   1
+|555510-DeNovo         | 420    |         |   1
+|555558-DeNovo         | 2      |         |   3
+|Fish-DeNove           | 330    |         | 302 (P. fragi bacteria indicates spoilage)
+|Juice-DeNovo          | 130    |         |  62 (2 oranges are detected which makes sense for Orange Juice)
+|Milk-DeNovo           | 432    |         |   4 
+|Oyster-DeNovo         | 714    |         |  10
+"
+cat(tabl3) # output the table in a format good for HTML/PDF/docx conversion
+```
+The performance with UniProt data shows that the database creation is working for this small set of organisms.  The KEGG database has more than 5,000 organisms.  There are approximately 22,000 reference Proteomes on UniProt.  We will create a more complete database with 5,000 to 20,000 UniProt Proteome for a fully functioning MARLOWE.
 
 \section{Discussion}
 Putting the results in context
@@ -82,18 +121,28 @@ Putting the results in context
 
 Currently MARLOWE only supports Trypsin digest. We can construct another version of the database where the peptides have been digested with an alternate protease enzyme.
 
-\section{Software Improvements}
+\section{Efficiency Improvements}
+
+The time required to build the sample database was about 24 hours with 9 organisms.  We will need to improve the speed of this process using parallel computing and multiple servers in order to create the database.  Exploring faster algorithms may also lead to improvements.
+
+\section{User Interface Improvements}
 GUI interface would be possible by creating an R-Shiny version where the scientist could select their input files using a GUI and then the pipeline would run automatically and produce and output report that could be viewed and downloaded. Automated database updates via API would allow adding new organisms to the database by pulling from UniProt via API and inserting into the MARLOWE candidate databases.
 
 \chapter{Figures}
-![Heat Map Communis Ricinis Rcom_9 Sample on KEGG](figures/kegg/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55_org_heatmap_min_o_1_min_p_1.jpeg){width=60%}
+![Heat Map Communis Ricinis, Rcom_9 Sample on KEGG](figures/kegg/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55_org_heatmap_min_o_1_min_p_1.jpeg){width=60%}
 
-![Heat Map Communis Ricinis Rcom_9 Sample on UniProt](figures/uniprot/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55_org_heatmap_min_o_1_min_p_1.jpeg){width=60%}
+![Heat Map Communis Ricinis, Rcom_9 Sample on UniProt](figures/uniprot/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55_org_heatmap_min_o_1_min_p_1.jpeg){width=60%}
 
 
 
-![Heat Map Communis Ricinis Rcom_GC4 Sample on KEGG](figures/kegg/Rcom_GCH4_1_2_03Jun16_Samwise_16-03-32_org_heatmap_min_o_1_min_p_1.jpeg){width=60%}
+![Heat Map Communis Ricinis, Rcom_GC4 Sample on KEGG](figures/kegg/Rcom_GCH4_1_2_03Jun16_Samwise_16-03-32_org_heatmap_min_o_1_min_p_1.jpeg){width=60%}
 
-![Heat Map Communis Ricinis Rcom_GC4 Sample on UniProt](figures/uniprot/Rcom_GCH4_1_2_03Jun16_Samwise_16-03-32_org_heatmap_min_o_1_min_p_1.jpeg){width=60%}
+![Heat Map Communis Ricinis, 555510-DeNovo Sample on UniProt](figures/uniprot/555510-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg){width=60%}
+![Heat Map Communis Ricinis, 555558-DeNovo Sample on UniProt](figures/uniprot/555558-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg){width=60%}
+![Heat Map Communis Ricinis, Rcom_GCH4_1_2 Sample on UniProt](figures/uniprot/Rcom_GCH4_1_2_org_heatmap_min_o_1_min_p_1.jpeg){width=60%}
+![Heat Map S. namaycush with P. fragi spoilage, Fish-DeNove Sample on UniProt](figures/uniprot/Fish-DeNove_org_heatmap_min_o_1_min_p_1.jpeg){width=60%}
+![Heat Map C. clementina Juice-DeNovo Sample on UniProt](figures/uniprot/Juice-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg){width=60%}
+![Heat Map B. taurus, Milk-DeNovo Sample on UniProt](figures/uniprot/Milk-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg){width=60%}
+![Heat Map C. virginica, Oyster-DeNovo Sample on UniProt](figures/uniprot/Oyster-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg){width=60%}
 
 # References {.unnumbered}
