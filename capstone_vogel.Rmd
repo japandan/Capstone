@@ -16,9 +16,6 @@ output:
     toc_depth: 2
 
 documentclass: report
-#  \usepackage{titlesec}
-#  \titleformat{\chapter}{\bfseries\Huge}{\chaptername~\thechapter.}{0.5em}{}
-#  \titlespacing{\chapter}{0pt}{*0}{*6}
 bibliography: capstone.bib
 csl: apa-6th-edition.csl
 #nocite: '@*'
@@ -26,37 +23,44 @@ csl: apa-6th-edition.csl
 header-includes:
   \usepackage{setspace}\doublespacing
   \usepackage{geometry}
-  \geometry{top=0.50in,left=1.0in,bottom=0.50in,right=1.0in}
+  \geometry{left = 2.5cm, right = 2cm, top = 2cm, bottom = 2cm}
+  \usepackage{sectsty,lmodern}
+  \chaptertitlefont{\Large}
   \usepackage{titlesec}
+  \titleformat{\chapter}[display]   
+  {\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\huge}   
+  \titlespacing*{\chapter}{0pt}{-50pt}{10pt}
   \titlespacing{\section}{5pt}{\parskip}{-\parskip}
 
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
-
 \chapter{Introduction}
-Bioterrorism is the use of microorganisms or toxins by terrorist or extremists' groups to produce weapons which cause death and disease [@jansen2014biological]. The use of biological agents (Bioweapons) to cause harm or death is not a new concept; countries have been engaging in bioterrorism for hundreds of years. Infectious diseases were recognized for their potential impact on people and armies as early as 600 BC. The crude use of filth and cadavers, animal carcasses, and contagion had devastating effects and weakened the enemy. Polluting wells and other sources of water of the opposing army was a common strategy that continued to be used through the many European wars, during the American Civil War, and even into the 20th century [@riedel2004biological]. More recently, an attack using anthrax-laden letters mailed to media organizations and politicians [@pal2017overview]. Progress made in biotechnology and biochemistry has simplified the development and production of such biological weapons [@riedel2004biological], thus it is predicted that proliferation of Bioweapons will increase in the next decades. Bacterial and plant protein toxins are among the most powerful poisons known and are considered as potential agents used for bioterrorism and warfare [@duracova2018proteomic]. Biodefense strategies which include early and accurate threat detection are essential in mounting a successful response to bioterrorism. Mass spectrometry (MS) can be utilized in all stages of such a response: from Bioweapon detectors to accurate forensics classification for successful prosecution [@demirev2008mass].
+\section{Bioterrorism}
+Bioterrorism is the use of microorganisms or toxins by terrorist or extremists' groups to produce weapons which cause death and disease [@jansen2014biological]. The use of biological agents (Bioweapons) to cause harm or death is not a new concept; countries have been engaging in bioterrorism for hundreds of years. Infectious diseases were recognized for their potential impact on people and armies as early as 600 BC. The crude use of filth and cadavers, animal carcasses, and contagion had devastating effects and weakened the enemy. Polluting wells and other sources of water of the opposing army was a common strategy that continued to be used through the many European wars, during the American Civil War, and even into the 20th century [@riedel2004biological]. More recently, an attack using anthrax-laden letters mailed to media organizations and politicians [@pal2017overview]. Progress made in biotechnology and biochemistry has simplified the development and production of such biological weapons [@riedel2004biological], thus it is predicted that proliferation of Bioweapons will increase in the next decades. Bacterial and plant protein toxins are among the most powerful poisons known and are considered as potential agents used for bioterrorism and warfare [@duracova2018proteomic]. Biodefense strategies which include early and accurate threat detection are essential in mounting a successful response to bioterrorism. 
 
-MS is currently the most comprehensive method for the quantification of proteins [@sinha2020beginner]. It provides a valuable tool for law enforcement's forensic sample analysis. The accuracy of MS can also distinguish between similar compounds and organisms such as the castor bean vs the derrivative toxin Ricin. Current methods, involving manual database searches, are slow, and depend on expert knowledge. Automated solutions produce effective results for non-experts and narrow the search field for experts to perform more in-depth analysis. We must refine software and methods, improving accuracy and efficiency to combat the Bioweapon threat.
+\section{Mass Spectrometry}
+Mass spectrometry (MS) can be utilized in all stages of such a response: from Bioweapon detectors to accurate forensics classification for successful prosecution [@demirev2008mass]. MS is currently the most comprehensive method for the quantification of proteins [@sinha2020beginner]. It provides a valuable tool for law enforcements' forensic sample analysis. The accuracy of MS can also distinguish between similar compounds and organisms such as the castor bean vs the derrivative toxin Ricin. Current methods, involving manual database searches, are slow, and depend on expert knowledge. Automated solutions produce effective results for non-experts and narrow the search field for experts to perform more in-depth analysis. We must refine software and methods, improving accuracy and efficiency to combat the Bioweapon threat.
 
+\section{Bottom-up Proteomics}
 Here we focus on bottom-up proteomics where proteins are digested into smaller peptides, which are analyzed by MS. MS detect the presence and quantity of peptides using properties of mass and net-charge. Mass spectrometers can only analyze gaseous ions, therefore peptides are converted into peptide ions which are separated by their mass-to-charge ratio (m/z).
 
 Samples are prepared for MS by digesting the long polypeptide chains using protease enzymes such as Trypsin, Chymotrypsin or Pepsin. These break proteins into smaller peptides which can be measured by MS. Protease digestion acts to normalize and compartmentalize the biochemical heterogeneity of proteins within a sample as peptides and may create a less heterogeneous mixture when protein splice isoforms and post-translational modifications are considered [@zhang2013protein]. One consideration due to the sensitivity of the MS analysis is that contaminant proteins will appear from Trypsin and human interaction and must be removed from analysis.  Contaminants include human skin or animal proteins from the digesting enzyme.
 
+\section{Bioinformatics Analysis}
 Bioinformatics analysis of MS output involves comparing matching the spectral output data from a sample with the theoretical spectra predicted from known genome or amino acid sequences contained in databases [@pere2020hood].  Amino Acid (AA) sequences  of the peptides are determined  using PEAKS® or Novor de-novo sequencing software. The MARLOWE software tool, developed at the Pacific Northwest National Lab (PNNL), to automate this database searching, producing a list of potential candidate compounds or organisms and likelihood scores for each candidate. MARLOWE is an R-Markdown application where the user adjusts a few input parameters to control sensitivity and set sample data input file names. It then performs analysis and generates documents to show the candidate scoring. In testing the MARLOWE search with a sample of the toxin, abrin, no matches were found as this compound was missing from the database.
 
 We will rebuild the MARLOWE analysis software database from UniProt, a publicly available data source. The new database will be generated via in-silico digestion of Amino Acid sequences found in UniProt, using Trypsin. This will result in more accurate and updated searches. The MARLOWE database can be updated, at no cost as more samples are added to UniProt. We will evaluate the success and propose a method to process lab samples digested with enzymes Chymotrypsin or Pepsin [@dau2020proteomics].
 
 \chapter{Literature Review and Previous work}
+\section{MARLOWE software tool}
 MARLOWE compares these peptides to a MySQL database which has been constructed from the Japanese KEGG.JP protein database [@kanehisa2002kegg]. The construction of the database requires taking the long amino acid sequences from each organism and digesting in-silico using an R subroutine, into smaller peptide sequences that match the digested lab sample. MARLOWE then uses an algorithm which compares the MS/PEAKS® data with the database peptides and makes a list of candidate organisms that may be contained in the sample. It produces scores and a heat map showing the most likely hits.
 
 \chapter{Specific Aims}
+\section{Aim 1 Create R package to parse UniProt FASTA}
 Aim 1 is to create a new R package which will extract required fields from publicly available UniProt data [\@10.1093/nar/gkaa1100] in fasta format. A major weakness of the MARLOWE tool is that the database was built using protein data from KEGG.JP, more than 2 years ago. The database cannot be updated without a paid subscription to the KEGG.JP FTP site which costs \$25,000 per year for a single site license. The KEGG data extraction subroutines in MARLOWE rely on regular expression to parse human readable .ent files from KEGG.JP. The .ent files are not standard so these subroutines are not useful for any other sources [@csordas2012pride]. The fasta format is a standard so the R data extraction package will be adaptable to UniProt or other protein databases where fasta output is available. Successful adoption of the UniProt data will make MARLOWE cheaper and more accessible for use as licensed access to the KEGG.JP FTP site is no longer required.
 
 I created a new UniProt based peptide database by downloading data from Uniprot's uniref50 in fasta format and parsed it via the parse_fasta package to extract the data fields that MARLOWE requires. Creating the MARLOWE database from complete uniref50 data is a computationally intense process taking weeks on a powerful workstation or server. There are over 100,000 organisms. By extracting this data into a separate file for each, I can develop a faster method to create the database using parallel processing on an NBACC High Performance Computing (HPC) cluster. I have ported the MARLOWE code and database from Windows to Linux to make this possible.
 
+\section{Aim 2 Create a MARLOWE database with UniProt Proteomes}
 Aim 2 is to improve the accuracy and performance of the MARLOWE tool by updating the database with new samples and creating an efficient process to update the database as needed. When NBACC scientists tried to perform an analysis of a sample containing the toxin "abrin", the program did not identify abrin because the database was out of date and did not contain entries for abrin. These were added to the KEGG.JP database in the year after MARLOWE was created. Abrin protein sequences are currently contained in both UniProt and KEGG.JP protein databases. These databases are updated constantly with protein sequences, often in response to a new toxin or virus of interest. Addition of the latest entries from UniProt will improve the accuracy of the MARLOWE pipeline, increasing the chance to identify the candidate toxin without manual searching.
 
 Aim 2. I will download subsets from UniProt by using queries which will contain the compounds in the test samples, milk, abrin, and castor bean. I will then compare the resulting MARLOWE/UniProt analysis to that done with the MARLOWE/KEGG to validate the sample was found and compare the scoring. This will lead to a process which can be used to update the database as needed, in the future. As more entries are added to UniProt or other protein databases are identified, this process can be repeated. After validation of the extraction and database creation, we can develop a repeatable procedure to download the entire UniProt database. Additionally, if I can obtain access to the current KEGG.JP FTP site, I will create an updated MARLOWE/KEGG database to validate that "abrin" can now be located using the original MARLOWE code.
@@ -71,30 +75,30 @@ I loaded the MARLOWE source packages into a GitHub.com repo so I can create new 
 I validated the output of MARLOWE (current version MySQL 8.0 on Windows 10, R version 3.6.1 ) with 8 data files from biological samples including Fish, Milk, Oyster, Juice and Castor bean. To perform the analysis of the two databases, MARLOWE was run against each database with the same samples. The output from each was compared with the actual contents of the sample in order to make a conclusion on performance or improvements needed.
 
 \section{R packages Developed for Parsing FASTA files}
-The FASTA format for the UniProt database contains the minimum required fields for MARLOWE but must be parsed differently since it is vastly different from the KEGG .ent format which is more suited for human readers. There are in fact different FASTA header formats used by UniProt Uniref and UniProtKB. The UniProt Proteome FASTA files use the UniProtKB format. I wrote a parse_fasta R function, which examines the file to determine which header format is in use and applies the appropriate parsing via Regular expressions. Here is an example of the fields extracted from the proteome FASTA that were used for the organisms.
+The FASTA format for the UniProt database contains the minimum required fields for MARLOWE but must be parsed differently since it is vastly different from the KEGG .ent format which is more suited for human readers. There are in fact different FASTA header formats used by UniProt Uniref and UniProtKB. The UniProt Proteome FASTA files use the UniProtKB format. I wrote a parse_fasta R function, which examines the file to determine which header format is in use and applies the appropriate parsing via Regular expressions. Here is an example of the fields extracted from the proteome FASTA headers that were used for the organisms inserted into the database.  UniProt identifies organisms with NCBI taxonID (OX). The KEGG database used the unique kegg_id identfier.  For our purpose, I am prefixing "U" in front to the integer taxonID to replace the kegg_id for organisms downloaded from UniProt. In the example below, R. communis taxonID = 3988 so the kegg_id = U3988 when inserted into the candidate database. The KEGG .ent files provided more fields than are available in the header so many fields are set to NULL for the UniProt derived organism data. These include Pathways, Database Links, Module, Brite, Position, and Motif. They are not required for the MARLOWE algorithm.
 
+\scriptsize
 ```
 UniProtKB Fasta header format
   
-   These files, composed of canonical and additional sequences, are non-redundant
-   FASTA sets for the sequences of each reference proteome.
+  These files, composed of canonical and additional sequences, are non-redundant
+  FASTA sets for the sequences of each reference proteome.
 
-   For further references about the standard UniProtKB format, please see:
-    http://www.uniprot.org/help/fasta-headers
-    http://www.uniprot.org/faq/38
+  For further references about the standard UniProtKB format, please see:
+   http://www.uniprot.org/help/fasta-headers
+   http://www.uniprot.org/faq/38
   
-  >db|UniqueIdentifier|EntryName ProteinName OS=OrganismName OX=OrganismIdentifier [GN=GeneName ]PE=ProteinExistence SV=SequenceVersion
+ >db|UniqueIdentifier|EntryName ProteinName OS=OrganismName OX=OrganismIdentifier [GN=GeneName ]PE=ProteinExistence SV=SequenceVersion
   
-  Example from the R. communis Proteome FASTA file of headers used for 5 protein sequences
+ Example from the R. communis Proteome FASTA file of headers used for 5 protein sequences
   
-  >tr|B9R7K7|B9R7K7_RICCO Cytochrome P450 OS=Ricinus communis OX=3988 GN=RCOM_1592680 PE=3 SV=1
-  >tr|B9R8T7|B9R8T7_RICCO Cinnamoyl-CoA reductase, putative OS=Ricinus communis OX=3988 GN=RCOM_1602080 PE=4 SV=1
-  >tr|B9R9L1|B9R9L1_RICCO 3-ketoacyl-CoA synthase OS=Ricinus communis OX=3988 GN=RCOM_1498550 PE=3 SV=1
-  >tr|B9RAM4|B9RAM4_RICCO 26S proteasome non-atpase regulatory subunit, putative OS=Ricinus communis OX=3988 GN=RCOM_1507340 PE=4 SV=1
-  >tr|B9RBT9|B9RBT9_RICCO C-4 methyl sterol oxidase, putative OS=Ricinus communis OX=3988 GN=RCOM_1681040 PE=3 SV=1
-  
+ >tr|B9R7K7|B9R7K7_RICCO Cytochrome P450 OS=Ricinus communis OX=3988 GN=RCOM_1592680 PE=3 SV=1
+ >tr|B9R8T7|B9R8T7_RICCO Cinnamoyl-CoA reductase, putative OS=Ricinus communis OX=3988 GN=RCOM_1602080 PE=4 SV=1
+ >tr|B9R9L1|B9R9L1_RICCO 3-ketoacyl-CoA synthase OS=Ricinus communis OX=3988 GN=RCOM_1498550 PE=3 SV=1
+ >tr|B9RAM4|B9RAM4_RICCO 26S proteasome non-atpase regulatory subunit, putative OS=Ricinus communis OX=3988 GN=RCOM_1507340 PE=4 SV=1
+ >tr|B9RBT9|B9RBT9_RICCO C-4 methyl sterol oxidase, putative OS=Ricinus communis OX=3988 GN=RCOM_1681040 PE=3 SV=1
 ```
-
+\normalsize
 \section{UniProt candidate database}
 I built small "candidate" database with UniProt Proteome data for 9 organisms that were contained in the lab samples that were analysed with Mass Spectrometry. Building the database involves downloading and parsing fasta proteome files, then inserting into the database along with the amino acid sequences for all proteins and the peptides that result from digesting these proteins with Trypsin. A final step is to upload NCBI taxonomy data for all organisms used to produce the MARLOWE heatmaps. The following shows the contents of the MySQL database to verify organisms have been inserted correctly.
 
@@ -161,84 +165,70 @@ The time required to build the sample database was about 24 hours with 9 organis
 GUI interface would be possible by creating an R-Shiny version where the scientist could select their input files using a GUI and then the pipeline would run automatically and produce and output report that could be viewed and downloaded. Automated database updates via API would allow adding new organisms to the database by pulling from UniProt via API and inserting into the MARLOWE candidate databases.
 
 \chapter{Figures}
-![KEGG Heat Map R. communis (castor bean),Rcom_9 Sample](figures/kegg/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55_org_heatmap_min_o_1_min_p_1.jpeg){width=70%}
+![KEGG Heat Map R. communis (castor bean),Rcom_9 Sample](figures/kegg/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55_org_heatmap_min_o_1_min_p_1.jpeg){width=65%}
 
-![UniProt Heat Map R. communis (castor bean),Rcom_9 Sample](figures/uniprot/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55_org_heatmap_min_o_1_min_p_1.png){width=70%}
-
-\newpage
-![KEGG Heat Map R. communis,Rcom_GC4 Sample](figures/kegg/Rcom_GCH4_1_2_03Jun16_Samwise_16-03-32_org_heatmap_min_o_1_min_p_1.jpeg){width=70%}
-
-![UniProt Heat Map Ricinus communis (castor bean),Rcom_GC4 Sample](figures/uniprot/Rcom_GCH4_1_2_org_heatmap_min_o_1_min_p_1.png){width=70%}
+![UniProt Heat Map R. communis (castor bean),Rcom_9 Sample](figures/uniprot/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55_org_heatmap_min_o_1_min_p_1.png){width=65%}
 
 \newpage
-![KEGG Heat Map](figures/kegg/55551-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg){width=70%}
+![KEGG Heat Map R. communis,Rcom_GC4 Sample](figures/kegg/Rcom_GCH4_1_2_03Jun16_Samwise_16-03-32_org_heatmap_min_o_1_min_p_1.jpeg){width=65%}
 
-![UniProt Heat Map Ricinus communis (castor bean)](figures/uniprot/555510-DeNovo_org_heatmap_min_o_1_min_p_1.png){width=70%}
+![UniProt Heat Map R. communis (castor bean),Rcom_GC4 Sample](figures/uniprot/Rcom_GCH4_1_2_org_heatmap_min_o_1_min_p_1.png){width=65%}
+
+\newpage
+![KEGG Heat Map R. communis (castor bean)](figures/kegg/55551-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg){width=65%}
+
+![UniProt Heat Map R. communis (castor bean)](figures/uniprot/555510-DeNovo_org_heatmap_min_o_1_min_p_1.png){width=65%}
 
 \newpage
 Ricin Prep Sample that was not found in KEGG or UniProt
 
-![KEGG Heat Map, Ricin Prep that tested poorly on both KEGG and UniProt databases](figures/kegg/555558-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg){width=70%}
+![KEGG Heat Map, Ricin Prep that tested poorly on both KEGG and UniProt databases](figures/kegg/555558-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg){width=65%}
 
-![UniProt Heat Map Ricinus communis Prep (castor bean)](figures/uniprot/555558-DeNovo_org_heatmap_min_o_1_min_p_1.png){width=70%}
+![UniProt Heat Map R. communis Prep (castor bean)](figures/uniprot/555558-DeNovo_org_heatmap_min_o_1_min_p_1.png){width=65%}
 
 \newpage
 ### Samples Tested which do not contain R. communis ###
 
 Fish
 
-![KEGG Heat Map S. namycush (lake trout)](figures/kegg/Fish-DeNove_org_heatmap_min_o_1_min_p_3.jpeg){width=70%}
+![KEGG Heat Map S. namycush (lake trout)](figures/kegg/Fish-DeNove_org_heatmap_min_o_1_min_p_3.jpeg){width=65%}
 
-![UniProt Heat Map S. namaycush (lake trout) with P. fragi (bacteria resulting from spoilage)](figures/uniprot/Fish-DeNove_org_heatmap_min_o_1_min_p_1.png){width=70%}
+![UniProt Heat Map S. namaycush (lake trout) with P. fragi (bacteria resulting from spoilage)](figures/uniprot/Fish-DeNove_org_heatmap_min_o_1_min_p_1.png){width=65%}
 
 \newpage
 Orange Juice
 
-![KEGG Heat Map C. clementina and sinensus (oranges)](figures/kegg/Juice-DeNovo_org_heatmap_min_o_4_min_p_4.jpeg){width=70%}
+![KEGG Heat Map C. clementina and C. sinensus (oranges)](figures/kegg/Juice-DeNovo_org_heatmap_min_o_4_min_p_4.jpeg){width=65%}
 
-![UniProt Heat Map Citrus clementina and C. sinensus (oranges)](figures/uniprot/Juice-DeNovo_org_heatmap_min_o_1_min_p_1.png){width=70%}
+![UniProt Heat Map C. clementina and C. sinensus (oranges)](figures/uniprot/Juice-DeNovo_org_heatmap_min_o_1_min_p_1.png){width=65%}
 
 \newpage
 Milk
 
-![KEGG Heat Map B. taurus (milk)](figures/kegg/Milk-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg){width=70%}
+![KEGG Heat Map B. taurus (milk)](figures/kegg/Milk-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg){width=65%}
 
-![UniProt Heat Map b. taurus (milk)](figures/uniprot/Milk-DeNovo_org_heatmap_min_o_0_min_p_0.png){width=70%}
+![UniProt Heat Map B. taurus (milk)](figures/uniprot/Milk-DeNovo_org_heatmap_min_o_0_min_p_0.png){width=65%}
 
 \newpage
 Oyster
 
-![KEGG Heat Map  C. virginica (oyster)](figures/kegg/Oyster-DeNovo_org_heatmap_min_o_5_min_p_3.jpeg){width=70%}
+![KEGG Heat Map  C. virginica (oyster)](figures/kegg/Oyster-DeNovo_org_heatmap_min_o_5_min_p_3.jpeg){width=65%}
 
-![Uniprot Heat Map C. virginica (oyster)](figures/uniprot/Oyster-DeNovo_org_heatmap_min_o_1_min_p_1.png){width=70%}
+![Uniprot Heat Map C. virginica (oyster)](figures/uniprot/Oyster-DeNovo_org_heatmap_min_o_1_min_p_1.png){width=65%}
 
 <!-- ### Other Heat Maps Available to replace the KEGG Figures already used ### -->
-
 <!-- ![KEGG Heat Map](figures/kegg/555558-DeNovo_org_heatmap_min_o_2_min_p_2.jpeg) -->
-
 <!-- ![KEGG Heat Map](figures/kegg/555558-DeNovo_org_heatmap_min_o_3_min_p_3.jpeg) -->
-
 <!-- ![KEGG Heat Map](figures/kegg/Fish-DeNove_org_heatmap_min_o_1_min_p_3.jpeg) -->
-
 <!-- ![KEGG Heat Map](figures/kegg/Fish-DeNove_org_heatmap_min_o_2_min_p_3.jpeg) -->
-
 <!-- ![KEGG Heat Map](figures/kegg/Fish-DeNove_org_heatmap_min_o_2_min_p_4.jpeg) -->
-
 <!-- ![KEGG Heat Map](figures/kegg/Fish-DeNove_org_heatmap_min_o_3_min_p_4.jpeg) -->
-
 <!-- ![KEGG Heat Map](figures/kegg/Juice-DeNovo_org_heatmap_min_o_5_min_p_5.jpeg) -->
-
 <!-- ![KEGG Heat Map](figures/kegg/Oyster-DeNovo_org_heatmap_min_o_3_min_p_3.jpeg) -->
-
 <!-- ![KEGG Heat Map](figures/kegg/Oyster-DeNovo_org_heatmap_min_o_5_min_p_3.jpeg) -->
-
 <!-- ![KEGG Heat Map](figures/kegg/Oyster-DeNovo_org_heatmap_min_o_5_min_p_5.jpeg) -->
-
 <!-- ![KEGG Heat Map](figures/kegg/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55_org_heatmap_min_o_1_min_p_1.jpeg) -->
-
 <!-- ![KEGG Heat Map](figures/kegg/Rcom_GCH4_1_2_03Jun16_Samwise_16-03-32_org_heatmap_min_o_1_min_p_1.jpeg) -->
-
 <!-- ![KEGG Heat Map](figures/kegg/Rcom_GCH4_1_2_org_heatmap_min_o_1_min_p_1.jpeg) -->
-
 <!-- ![KEGG Heat Map](figures/kegg/Rcom_GCH4_1_2_org_heatmap_min_o_2_min_p_2.jpeg) -->
 # References {.unnumbered}
