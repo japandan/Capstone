@@ -9,7 +9,8 @@ date: "`r Sys.time()`"
 # nice date format to use when done
 #date: "`r format(Sys.time(), '%d %B %Y')`"
 
-abstract: 'Bioterrorism has created a need for the rapid analysis of samples which may contain toxins, viruses, or other deadly agents. Mass Spectrometry (MS) provides a tool for use in proteomics for accurate and comprehensive profiling of proteins. An automated software tool which can search for matches against a proteome database is useful for forensic analysis of samples and an effective countermeasure to Bioterrorist attacks. Here we create a database for this purpose using publicly available proteomes from the Uniprot.org database [@10.1093/nar/gkaa1100].'
+abstract: 'Bioterrorism has created a need for the rapid analysis of samples which may contain toxins, viruses, or other deadly agents. Mass Spectrometry (MS) provides a tool for use in proteomics for accurate and comprehensive profiling of proteins. An automated software tool which can search for matches against a proteome database is useful for forensic analysis of samples and an effective countermeasure to Bioterrorist attacks. A software tool called MARLOWE was tested and it worked well for MS sample analysis but failed to identify organisms of interest such as the toxin, Arbin, that were missing from the KEGG.JP database on which it relies. FTP access to KEGG.JP is cost prohibitive and the database creation process is compute intensive. Here we create a database for MARLOWE using publicly available proteomes from the Uniprot.org database [@10.1093/nar/gkaa1100]. By creating a process to update this MARLOWE database, we can ensure that target organism are present, even as newer organisms are added to UniProt.'
+
 output: 
   pdf_document:
     toc: true
@@ -54,6 +55,9 @@ We will rebuild the MARLOWE analysis software database from UniProt, a publicly 
 \section{MARLOWE software tool}
 MARLOWE compares these peptides to a MySQL database which has been constructed from the Japanese KEGG.JP protein database [@kanehisa2002kegg]. The construction of the database requires taking the long amino acid sequences from each organism and digesting in-silico using an R subroutine, into smaller peptide sequences that match the digested lab sample. MARLOWE then uses an algorithm which compares the MS/PEAKS® data with the database peptides and makes a list of candidate organisms that may be contained in the sample. It produces scores and a heat map showing the most likely hits.
 
+\section{MARLOWE algorithm}
+Protein sequences are taken from the public organism database and digested in-silico to produce peptide sequences. For Trypsin digest, there are specific cut points where the sequences will be split. The peptides are than analyzed against those from other organisms and strong-peptides are tagged. These have more value to the search algorithm due to factors such as the quantity present in one organism versus another. Organism protein sequences, peptides, and strong-peptides are inserted into the local SQL database for use in analysis by the MARLOWE algorithm.
+
 \chapter{Specific Aims}
 \section{Aim 1 Create R package to parse UniProt FASTA}
 Aim 1 is to create a new R package which will extract required fields from publicly available UniProt data [\@10.1093/nar/gkaa1100] in fasta format. A major weakness of the MARLOWE tool is that the database was built using protein data from KEGG.JP, more than 2 years ago. The database cannot be updated without a paid subscription to the KEGG.JP FTP site which costs \$25,000 per year for a single site license. The KEGG data extraction subroutines in MARLOWE rely on regular expression to parse human readable .ent files from KEGG.JP. The .ent files are not standard so these subroutines are not useful for any other sources [@csordas2012pride]. The fasta format is a standard so the R data extraction package will be adaptable to UniProt or other protein databases where fasta output is available. Successful adoption of the UniProt data will make MARLOWE cheaper and more accessible for use as licensed access to the KEGG.JP FTP site is no longer required.
@@ -66,16 +70,17 @@ Aim 2 is to improve the accuracy and performance of the MARLOWE tool by updating
 Aim 2. I will download subsets from UniProt by using queries which will contain the compounds in the test samples, milk, abrin, and castor bean. I will then compare the resulting MARLOWE/UniProt analysis to that done with the MARLOWE/KEGG to validate the sample was found and compare the scoring. This will lead to a process which can be used to update the database as needed, in the future. As more entries are added to UniProt or other protein databases are identified, this process can be repeated. After validation of the extraction and database creation, we can develop a repeatable procedure to download the entire UniProt database. Additionally, if I can obtain access to the current KEGG.JP FTP site, I will create an updated MARLOWE/KEGG database to validate that "abrin" can now be located using the original MARLOWE code.
 
 \chapter{Resources, Tools, and Research Methodology}
-
 \section{Hardware and Software Versions}
-I installed MARLOWE on a server with a 32-core AMD cpu and 500G ram.   The storage for the database was a high speed NVME SSD. The Operating System was Ubuntu 20.04LTS .I have also installed it on a workstation with 18-core Intel cpu and 256G ram. The workstation's operating system is Windows 10. MARLOWE was designed to run with Microsoft Windows® but I have converted it to run on Linux so that I may use HPC resources. I will test it on Ubuntu 20.04LTS and CentOS 7. The conversion to Linux involved replacing some of the R packages used for File selection with code that will work on Linux. The KEGG database mysqldump (backup file) had to be edited to change some of the collation utf8mb4_0900_ai_ci used by MySQL 8.0 which is not supported by MariaDB. It was replace by collation utf8mb4_unicode_520_ci.
+I installed MARLOWE on a server with a 32-core AMD cpu and 500G ram.   The storage for the database was a high speed NVME SSD. The Operating System was Ubuntu 20.04LTS .I have also installed it on a workstation with 18-core Intel cpu and 256G ram. The workstation's operating system is Windows 10. MARLOWE was designed to run with Microsoft Windows® but I have converted it to run on Linux so that I may use HPC resources. I will test it on Ubuntu 20.04LTS and CentOS 7. The conversion to Linux involved replacing some of the R packages used for File selection with code that will work on Linux. The KEGG database mysqldump (backup file) had to be edited to change some of the collation utf8mb4_0900_ai_ci used by MySQL 8.0 which is not supported by MariaDB. It was replace by collation utf8mb4_unicode_520_ci. This collation works on MySQL 8.0.31-0ubuntu0.20.04.1.
 
-I loaded the MARLOWE source packages into a GitHub.com repo so I can create new packages which can be tested on various Linux platforms. The code is written with R version 4.2.1 using the RStudio Development Environment and a database from UniProt data will be created with MySQL version 8.0.31 for Ubuntu Linux and MariaDB 5.5 for CentOS 7 Linux. 
+I loaded the MARLOWE source packages into a GitHub.com repo so I can create new packages which can be tested on various Linux platforms. The code is written with R version 4.2.1 using the RStudio Development Environment and a database from UniProt data will be created with MySQL version 8.0.31 for Ubuntu Linux and MariaDB 5.5 for CentOS 7 Linux. Collation utf8mb4_unicode_520_ci is not supported on MariaDB 5.5. 
 
 I validated the output of MARLOWE (current version MySQL 8.0 on Windows 10, R version 3.6.1 ) with 8 data files from biological samples including Fish, Milk, Oyster, Juice and Castor bean. To perform the analysis of the two databases, MARLOWE was run against each database with the same samples. The output from each was compared with the actual contents of the sample in order to make a conclusion on performance or improvements needed.
 
 \section{R packages Developed for Parsing FASTA files}
 The FASTA format for the UniProt database contains the minimum required fields for MARLOWE but must be parsed differently since it is vastly different from the KEGG .ent format which is more suited for human readers. There are in fact different FASTA header formats used by UniProt Uniref and UniProtKB. The UniProt Proteome FASTA files use the UniProtKB format. I wrote a parse_fasta R function, which examines the file to determine which header format is in use and applies the appropriate parsing via Regular expressions. Here is an example of the fields extracted from the proteome FASTA headers that were used for the organisms inserted into the database.  UniProt identifies organisms with NCBI taxonID (OX). The KEGG database used the unique kegg_id identfier.  For our purpose, I am prefixing "U" in front to the integer taxonID to replace the kegg_id for organisms downloaded from UniProt. In the example below, R. communis taxonID = 3988 so the kegg_id = U3988 when inserted into the candidate database. The KEGG .ent files provided more fields than are available in the header so many fields are set to NULL for the UniProt derived organism data. These include Pathways, Database Links, Module, Brite, Position, and Motif. They are not required for the MARLOWE algorithm.
+
+### UniProt Release 2022_04 ###
 
 \scriptsize
 ```
@@ -99,48 +104,53 @@ UniProtKB Fasta header format
  >tr|B9RBT9|B9RBT9_RICCO C-4 methyl sterol oxidase, putative OS=Ricinus communis OX=3988 GN=RCOM_1681040 PE=3 SV=1
 ```
 \normalsize
+\chapter{Results}
 \section{UniProt candidate database}
-I built small "candidate" database with UniProt Proteome data for 9 organisms that were contained in the lab samples that were analysed with Mass Spectrometry. Building the database involves downloading and parsing fasta proteome files, then inserting into the database along with the amino acid sequences for all proteins and the peptides that result from digesting these proteins with Trypsin. A final step is to upload NCBI taxonomy data for all organisms used to produce the MARLOWE heatmaps. The following shows the contents of the MySQL database to verify organisms have been inserted correctly.
+I built small "candidate" database with UniProt (Release 2022_04) Proteome data for 9 organisms including those contained in the lab samples that were analysed with Mass Spectrometry. Building the database involves downloading and parsing fasta proteome files, then inserting into the database along with the amino acid sequences for all proteins and the peptides that result from digesting these proteins with Trypsin. A final step is to upload NCBI taxonomy data for all organisms used to produce the MARLOWE heatmaps. The following shows the contents of the MySQL database to verify organisms have been inserted correctly.  As a validation of the success, the following SQL query shows the organisms inserted and they quantities of peptides which resulted from the in-silico digestion. The filtering for strong peptide count can also be verified.
 
 ```{r table2, echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
-tabl <- "
+database <- data.frame(
+  name = c("Bos taurus","Citrus clementina","Citrus sinensis","Crassostrea gigas",
+               "Crassostrea virginica","Ricinus communis","Pseudomonas fragi","Salvelinus namaycush","Chlamydia pneumoniae"),
+  taxon_id = c(9913,85681,2711,29159,6565,3988,296,8040,83558),
+  protein_count = c(23844, 24934, 28128, 25998, 33719, 31219, 4324, 35973, 1052 ),
+  peptide_count = c(652649, 586056, 572368, 687216, 876976, 630447, 85668, 696618, 23031),
+  strong_peptide_count =c( 554285, 482274, 471745, 624744, 805672, 520219, 76797, 599782, 20258 )
+)
 
-| name                  | taxon_id |protein_count| peptide_count| strong_peptide_count |
-|-----------------------|----------|------------:|:------------:|---------------------:|
-| Bos taurus            |     9913 |       23844 |       652649 |               554285 |
-| Citrus clementina     |    85681 |       24934 |       586056 |               482274 |
-| Citrus sinensis       |     2711 |       28128 |       572368 |               471745 |
-| Crassostrea gigas     |    29159 |       25998 |       687216 |               624744 |
-| Crassostrea virginica |     6565 |       33719 |       876976 |               805672 |
-| Ricinus communis      |     3988 |       31219 |       630447 |               520219 |
-| Pseudomonas fragi     |      296 |        4324 |        85668 |                76797 |
-| Salvelinus namaycush  |     8040 |       35973 |       696618 |               599782 |
-| Chlamydia pneumoniae  |    83558 |        1052 |        23031 |                20258 | 
-"
-cat(tabl) # output the table in a format good for HTML/PDF/docx conversion
+# Table of Results 
+knitr::kable(database,
+             caption = "Query of Organisms Inserted into the Candidate Database",
+             digits = 0)
+
 ```
 
-\chapter{Results}
 I ran the MARLOWE software with PEAKS output from 8 datasets which contained organism that are in the database. Ricinus communis was contained in 4 of the samples and the other 4 were random samples created for testing to include milk, orange juice, oyster, and fish. MARLOWE was able to detect the sample with a strong signal score for 7 of the tests.
 
 Poor results where evident in 555558-DeNovo, a R. communis sample, where B. taurus (4) and S. namaycush (3) both scored slightly higher than R. communis (2). However these low scores are all below the threshold for detection. In the Orange Juice sample, the 2 Citrus organisms scored high, (130, 62) but there was also a presence of R. communis (28) detected. Heatmaps produced as the final output by MARLOWE clearly show the presence of the organisms contained in each sample.
 Comparison with KEGG output for Sample 555558-DeNovo will indicate if there is an issue with this data.
 
 ```{r table3, echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
-tabl3 <- "
-|Sample Name           |UniProt |   KEGG  | Next Closest
-|----------------------|--------|:-------:|:-------------
-|R. communis 9 sample  | 164    |   111   |   1
-|R. communis GC4       | 654    |   476   |   1
-|555510-DeNovo         | 420    |   303   |   1
-|555558-DeNovo         | 2      |     0   |   3
-|Fish-DeNove           | 330    |    16   | 302 (P. fragi bacteria indicates spoilage)
-|Juice-DeNovo          | 130    |   423   |  62 (2 oranges are detected which makes sense for Orange Juice)
-|Milk-DeNovo           | 432    |   109   |   4 
-|Oyster-DeNovo         | 714    |   306   |  10
-"
-cat(tabl3) # output the table in a format good for HTML/PDF/docx conversion
+results <- data.frame( 
+  Sample=c("R. communis 9","R. communis GC4","55551-DeNovo","555558-DeNovo",
+           "Fish-DeNove","Juice-DeNovo","Milk-DeNovo","Oyster-DeNovo"),
+  UniProt=c(164,654,420,2,330,130,432,714),
+  KEGG=c(111,476,303,0,16,423,109,306),
+  Next_UniProt=c("1","1","1","3","302*","62**","4","10")
+  
+  )
+# Table of Results 
+knitr::kable(results,
+             caption = "Comparing Results from UniProt and KEGG",
+             digits = 0)
 ```
+\scriptsize
+```
+*  Score 302 was for P. fragi bacteria which indicates spoilage.
+** Score 62 was for another orange detected since the orange juice was a blend of 2 oranges.
+```
+\normalsize
+
 The performance with UniProt data shows that the database creation is working for this small set of organisms.  The KEGG database has more than 5,000 organisms.  There are approximately 22,000 reference Proteomes on UniProt.  We will create a more complete database with 5,000 to 20,000 UniProt Proteome for a fully functioning MARLOWE.
 
 \section{Discussion}
