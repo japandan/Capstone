@@ -34,6 +34,13 @@ header-includes:
   \titlespacing{\section}{5pt}{\parskip}{-\parskip}
 
 ---
+
+```{r, echo = FALSE, message = FALSE}
+  library( magrittr)
+  library( knitr )
+  library( dplyr )
+  library( kableExtra )
+```
 \chapter{Introduction}
 \section{Bioterrorism}
 Bioterrorism is the use of microorganisms or toxins by terrorist or extremists' groups to produce weapons which cause death and disease [@jansen2014biological]. The use of biological agents (Bioweapons) to cause harm or death is not a new concept; countries have been engaging in bioterrorism for hundreds of years. Infectious diseases were recognized for their potential impact on people and armies as early as 600 BC. The crude use of filth and cadavers, animal carcasses, and contagion had devastating effects and weakened the enemy. Polluting wells and other sources of water of the opposing army was a common strategy that continued to be used through the many European wars, during the American Civil War, and even into the 20th century [@riedel2004biological]. More recently, an attack using anthrax-laden letters mailed to media organizations and politicians [@pal2017overview]. Progress made in biotechnology and biochemistry has simplified the development and production of such biological weapons [@riedel2004biological], thus it is predicted that proliferation of Bioweapons will increase in the next decades. Bacterial and plant protein toxins are among the most powerful poisons known and are considered as potential agents used for bioterrorism and warfare [@duracova2018proteomic]. Biodefense strategies which include early and accurate threat detection are essential in mounting a successful response to bioterrorism. 
@@ -106,10 +113,12 @@ UniProtKB Fasta header format
 \normalsize
 \chapter{Results}
 \section{UniProt candidate database}
+
 I built small "candidate" database with UniProt (Release 2022_04) Proteome data for 9 organisms including those contained in the lab samples that were analysed with Mass Spectrometry. Building the database involves downloading and parsing fasta proteome files, then inserting into the database along with the amino acid sequences for all proteins and the peptides that result from digesting these proteins with Trypsin. A final step is to upload NCBI taxonomy data for all organisms used to produce the MARLOWE heatmaps. The following shows the contents of the MySQL database to verify organisms have been inserted correctly.  As a validation of the success, the following SQL query shows the organisms inserted and they quantities of peptides which resulted from the in-silico digestion. The filtering for strong peptide count can also be verified.
 
-```{r table2, echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
-database <- data.frame(
+```{r table1, echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
+
+database_query <- data.frame(
   name = c("Bos taurus","Citrus clementina","Citrus sinensis","Crassostrea gigas",
                "Crassostrea virginica","Ricinus communis","Pseudomonas fragi","Salvelinus namaycush","Chlamydia pneumoniae"),
   taxon_id = c(9913,85681,2711,29159,6565,3988,296,8040,83558),
@@ -118,23 +127,32 @@ database <- data.frame(
   strong_peptide_count =c( 554285, 482274, 471745, 624744, 805672, 520219, 76797, 599782, 20258 )
 )
 
+# pull sql query results from copy saved instead of hard coded
+if (file.exists( "organisms.csv" ) ) {
+    database_query <- read.csv( "organisms.csv" )
+}
+
 # Table of Results 
-knitr::kable(database,
+knitr::kable(database_query, 
              caption = "Query of Organisms Inserted into the Candidate Database",
-             digits = 0)
+             digits = 0)  %>%
+  kableExtra::kable_styling(latex_options = "hold_position")
 
 ```
+The MARLOWE software was run with PEAKS output from 8 datasets which contained organism that are present in the UniProt database. Ricinus communis was contained in 4 of the samples and the other 4 were random samples created for testing to include milk, orange juice, oyster, and fish. MARLOWE was able to detect the sample with a strong signal score for 7 of the tests.
 
-I ran the MARLOWE software with PEAKS output from 8 datasets which contained organism that are in the database. Ricinus communis was contained in 4 of the samples and the other 4 were random samples created for testing to include milk, orange juice, oyster, and fish. MARLOWE was able to detect the sample with a strong signal score for 7 of the tests.
+Heatmaps produced as the final output by MARLOWE for each sample clearly show the presence of the target organisms contained in each sample. Scores were high when a target organism was identified by the algorithm.
 
-Poor results where evident in 555558-DeNovo, a R. communis sample, where B. taurus (4) and S. namaycush (3) both scored slightly higher than R. communis (2). However these low scores are all below the threshold for detection. In the Orange Juice sample, the 2 Citrus organisms scored high, (130, 62) but there was also a presence of R. communis (28) detected. Heatmaps produced as the final output by MARLOWE clearly show the presence of the organisms contained in each sample.
-Comparison with KEGG output for Sample 555558-DeNovo will indicate if there is an issue with this data.
-  
+In the Orange Juice sample, the 2 Citrus organisms scored high, (130, 62) which is to be expected. There was also a presence of R. communis (28) detected which would be a false positive likely caused by overlap of peptides between these organisms. Further investigation is needed to determine the cause.
+
+Poor results where evident in 555558-DeNovo, a R. communis sample, where B. taurus (4) and S. namaycush (3) both scored slightly higher than R. communis (2). However these low scores are all below the threshold to be considered as a match. Comparison with KEGG output for Sample 555558-DeNovo indicates that there is an issue with this sample's data.  The KEGG output did not identify R. communis as a candidate for sample 555558-DeNovo.  
+\newpage
 ```{r table3, echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
+
 ## add code to read these from .csv files that will be saved with the document.
 ## use an R SQL query to generate these files if possible.
 
-results <- data.frame( 
+table_results <- data.frame( 
   Sample=c("R. communis 9","R. communis GC4","55551-DeNovo","555558-DeNovo",
            "Fish-DeNove","Juice-DeNovo","Milk-DeNovo","Oyster-DeNovo"),
   UniProt=c(164,654,420,2,330,130,432,714),
@@ -143,14 +161,11 @@ results <- data.frame(
   
   )
 
-# pull sql query results from copy saved instead of hard coded
-if (file.exists( "organisms.csv" ) ) {
-    results <- read.csv( "organisms.csv" )
-}
 # Table of Results 
-knitr::kable(results,
-             caption = "Comparing Results from UniProt and KEGG",
-             digits = 0)
+knitr::kable(table_results,
+             caption = "Comparing Results from UniProt and KEGG", 
+             digits = 0) %>%
+        kableExtra::kable_styling(latex_options = "hold_position")
 ```
 \scriptsize
 ```
@@ -158,16 +173,13 @@ knitr::kable(results,
 ** Score 62 was for another orange detected since the orange juice was a blend of 2 oranges.
 ```
 \normalsize
-
-The performance with UniProt data shows that the database creation is working for this small set of organisms.  The KEGG database has more than 5,000 organisms.  There are approximately 22,000 reference Proteomes on UniProt.  We will create a more complete database with 5,000 to 20,000 UniProt Proteome for a fully functioning MARLOWE.
+The performance with UniProt data shows that the database creation is working for this small set of organisms. The scores for the UniProt hits are on average higher than those from KEGG, showing confidence. The KEGG database has more than 5,000 organisms.  There are approximately 22,000 reference Proteomes on UniProt. We will create a more complete database with 5,000 to 20,000 UniProt Proteome for a fully functioning MARLOWE. This should lead to hits for the larger set of organisms.
 
 \section{Discussion}
 The process to build the database appears to be working but it is very slow on my test with a single server.
 There are 2 main steps: 1. Convert the UniProt proteome fasta files into RData and 2. Import a directory fill of these Rdata files into MySQL.
 
-While I try to speed up this process, we could be converting the 22,000 UniProt Proteome into RData files. We could also select a subset of Proteomes.
-The proteome fasta are organized in the groups [ Archaea, Bacteria,Eukaryota,Viruses] so that we could convert Virus, Bacteria, etc but not convert some other groups.
-We could also select organisms based on taxonomy or other attributes.  If I have a list of organisms to be inserted into the database, I can convert these first.
+While I try to speed up this process, we could be converting the 22,000 UniProt Reference Proteomes into RData files. We could also select a subset of Proteomes. The proteome fasta are organized in the groups [ Archaea, Bacteria,Eukaryota,Viruses] so that we could convert Virus, Bacteria, etc but not convert some other groups. We could also select organisms based on taxonomy or other attributes.  If I have a list of organisms to be inserted into the database, I can convert these first.
 
 \chapter{Summary and Future Work}
 
