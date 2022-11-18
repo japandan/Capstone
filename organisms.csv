@@ -1,0 +1,10 @@
+"","name","kegg_id","taxon_id","protein_count","peptide_count","strong_peptide_count"
+"1","Bos taurus","U9913",9913,23844,652649,554285
+"2","Citrus clementina","U85681",85681,24934,586056,482274
+"3","Citrus sinensis","U2711",2711,28128,572368,471745
+"4","Crassostrea gigas","U29159",29159,25998,687216,624744
+"5","Crassostrea virginica","U6565",6565,33719,876976,805672
+"6","Ricinus communis","U3988",3988,31219,630447,520219
+"7","Pseudomonas fragi","U296",296,4324,85668,76797
+"8","Salvelinus namaycush","U8040",8040,35973,696618,599782
+"9","Chlamydia pneumoniae","U83558",83558,1052,23031,20258

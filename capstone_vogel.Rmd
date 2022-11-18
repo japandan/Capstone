@@ -131,6 +131,9 @@ Poor results where evident in 555558-DeNovo, a R. communis sample, where B. taur
 Comparison with KEGG output for Sample 555558-DeNovo will indicate if there is an issue with this data.
 
 ```{r table3, echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
+## add code to read these from .csv files that will be saved with the document.
+## use an R SQL query to generate these files if possible.
+
 results <- data.frame( 
   Sample=c("R. communis 9","R. communis GC4","55551-DeNovo","555558-DeNovo",
            "Fish-DeNove","Juice-DeNovo","Milk-DeNovo","Oyster-DeNovo"),
@@ -139,6 +142,8 @@ results <- data.frame(
   Next_UniProt=c("1","1","1","3","302*","62**","4","10")
   
   )
+# pull from copy saved instead of hard coded
+results <- read.csv( "organisms.csv" )
 # Table of Results 
 knitr::kable(results,
              caption = "Comparing Results from UniProt and KEGG",

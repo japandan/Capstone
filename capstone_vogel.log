@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.5)  17 NOV 2022 17:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.5)  17 NOV 2022 20:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -567,12 +567,22 @@ Overfull \hbox (8.32912pt too wide) in paragraph at lines 386--386
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 390.
 
+
+Overfull \hbox (3.35994pt too wide) in paragraph at lines 494--495
+ []\T1/lmr/m/n/10 strong_peptide_count
+ []
+
+
+Overfull \hbox (3.35994pt too wide) in paragraph at lines 512--513
+ []\T1/lmr/m/n/10 strong_peptide_count
+ []
+
 [9
 
 ] [10]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 524.
+(hyperref)                be the same. Added a new anchor on input line 560.
 
 [11
 
@@ -580,12 +590,12 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 <figures/kegg/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55_org_heatmap_min_o_1_min_p_1.jpeg, id=175, 722.7pt x 505.89pt>
 File: figures/kegg/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55_org_heatmap_min_o_1_min_p_1.jpeg Graphic file (type jpg)
 <use figures/kegg/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55_org_heatmap_min_o_1_min_p_1.jpeg>
-Package pdftex.def Info: figures/kegg/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55_org_heatmap_min_o_1_min_p_1.jpeg  used on input line 550.
+Package pdftex.def Info: figures/kegg/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55_org_heatmap_min_o_1_min_p_1.jpeg  used on input line 586.
 (pdftex.def)             Requested size: 316.05916pt x 221.24141pt.
 <figures/uniprot/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55_org_heatmap_min_o_1_min_p_1.png, id=176, 722.7pt x 505.89pt>
 File: figures/uniprot/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55_org_heatmap_min_o_1_min_p_1.png Graphic file (type png)
 <use figures/uniprot/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55_org_heatmap_min_o_1_min_p_1.png>
-Package pdftex.def Info: figures/uniprot/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55_org_heatmap_min_o_1_min_p_1.png  used on input line 556.
+Package pdftex.def Info: figures/uniprot/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55_org_heatmap_min_o_1_min_p_1.png  used on input line 592.
 (pdftex.def)             Requested size: 316.05916pt x 221.24141pt.
 [12
 
@@ -593,78 +603,78 @@ Package pdftex.def Info: figures/uniprot/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55
 <figures/kegg/Rcom_GCH4_1_2_03Jun16_Samwise_16-03-32_org_heatmap_min_o_1_min_p_1.jpeg, id=183, 722.7pt x 505.89pt>
 File: figures/kegg/Rcom_GCH4_1_2_03Jun16_Samwise_16-03-32_org_heatmap_min_o_1_min_p_1.jpeg Graphic file (type jpg)
 <use figures/kegg/Rcom_GCH4_1_2_03Jun16_Samwise_16-03-32_org_heatmap_min_o_1_min_p_1.jpeg>
-Package pdftex.def Info: figures/kegg/Rcom_GCH4_1_2_03Jun16_Samwise_16-03-32_org_heatmap_min_o_1_min_p_1.jpeg  used on input line 564.
+Package pdftex.def Info: figures/kegg/Rcom_GCH4_1_2_03Jun16_Samwise_16-03-32_org_heatmap_min_o_1_min_p_1.jpeg  used on input line 600.
 (pdftex.def)             Requested size: 316.05916pt x 221.24141pt.
 <figures/uniprot/Rcom_GCH4_1_2_org_heatmap_min_o_1_min_p_1.png, id=184, 722.7pt x 505.89pt>
 File: figures/uniprot/Rcom_GCH4_1_2_org_heatmap_min_o_1_min_p_1.png Graphic file (type png)
 <use figures/uniprot/Rcom_GCH4_1_2_org_heatmap_min_o_1_min_p_1.png>
-Package pdftex.def Info: figures/uniprot/Rcom_GCH4_1_2_org_heatmap_min_o_1_min_p_1.png  used on input line 570.
+Package pdftex.def Info: figures/uniprot/Rcom_GCH4_1_2_org_heatmap_min_o_1_min_p_1.png  used on input line 606.
 (pdftex.def)             Requested size: 316.05916pt x 221.24141pt.
 [13 <./figures/kegg/Rcom_GCH4_1_2_03Jun16_Samwise_16-03-32_org_heatmap_min_o_1_min_p_1.jpeg> <./figures/uniprot/Rcom_GCH4_1_2_org_heatmap_min_o_1_min_p_1.png>]
 <figures/kegg/55551-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg, id=191, 722.7pt x 505.89pt>
 File: figures/kegg/55551-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg Graphic file (type jpg)
 <use figures/kegg/55551-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg>
-Package pdftex.def Info: figures/kegg/55551-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg  used on input line 578.
+Package pdftex.def Info: figures/kegg/55551-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg  used on input line 614.
 (pdftex.def)             Requested size: 316.05916pt x 221.24141pt.
 <figures/uniprot/555510-DeNovo_org_heatmap_min_o_1_min_p_1.png, id=192, 722.7pt x 505.89pt>
 File: figures/uniprot/555510-DeNovo_org_heatmap_min_o_1_min_p_1.png Graphic file (type png)
 <use figures/uniprot/555510-DeNovo_org_heatmap_min_o_1_min_p_1.png>
-Package pdftex.def Info: figures/uniprot/555510-DeNovo_org_heatmap_min_o_1_min_p_1.png  used on input line 584.
+Package pdftex.def Info: figures/uniprot/555510-DeNovo_org_heatmap_min_o_1_min_p_1.png  used on input line 620.
 (pdftex.def)             Requested size: 316.05916pt x 221.24141pt.
 [14 <./figures/kegg/55551-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg> <./figures/uniprot/555510-DeNovo_org_heatmap_min_o_1_min_p_1.png>]
 <figures/kegg/555558-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg, id=199, 722.7pt x 505.89pt>
 File: figures/kegg/555558-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg Graphic file (type jpg)
 <use figures/kegg/555558-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg>
-Package pdftex.def Info: figures/kegg/555558-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg  used on input line 594.
+Package pdftex.def Info: figures/kegg/555558-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg  used on input line 630.
 (pdftex.def)             Requested size: 316.05916pt x 221.24141pt.
 <figures/uniprot/555558-DeNovo_org_heatmap_min_o_1_min_p_1.png, id=200, 722.7pt x 505.89pt>
 File: figures/uniprot/555558-DeNovo_org_heatmap_min_o_1_min_p_1.png Graphic file (type png)
 <use figures/uniprot/555558-DeNovo_org_heatmap_min_o_1_min_p_1.png>
-Package pdftex.def Info: figures/uniprot/555558-DeNovo_org_heatmap_min_o_1_min_p_1.png  used on input line 601.
+Package pdftex.def Info: figures/uniprot/555558-DeNovo_org_heatmap_min_o_1_min_p_1.png  used on input line 637.
 (pdftex.def)             Requested size: 316.05916pt x 221.24141pt.
 [15 <./figures/kegg/555558-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg> <./figures/uniprot/555558-DeNovo_org_heatmap_min_o_1_min_p_1.png>]
 <figures/kegg/Fish-DeNove_org_heatmap_min_o_1_min_p_3.jpeg, id=207, 722.7pt x 505.89pt>
 File: figures/kegg/Fish-DeNove_org_heatmap_min_o_1_min_p_3.jpeg Graphic file (type jpg)
 <use figures/kegg/Fish-DeNove_org_heatmap_min_o_1_min_p_3.jpeg>
-Package pdftex.def Info: figures/kegg/Fish-DeNove_org_heatmap_min_o_1_min_p_3.jpeg  used on input line 615.
+Package pdftex.def Info: figures/kegg/Fish-DeNove_org_heatmap_min_o_1_min_p_3.jpeg  used on input line 651.
 (pdftex.def)             Requested size: 316.05916pt x 221.24141pt.
 <figures/uniprot/Fish-DeNove_org_heatmap_min_o_1_min_p_1.png, id=208, 722.7pt x 505.89pt>
 File: figures/uniprot/Fish-DeNove_org_heatmap_min_o_1_min_p_1.png Graphic file (type png)
 <use figures/uniprot/Fish-DeNove_org_heatmap_min_o_1_min_p_1.png>
-Package pdftex.def Info: figures/uniprot/Fish-DeNove_org_heatmap_min_o_1_min_p_1.png  used on input line 621.
+Package pdftex.def Info: figures/uniprot/Fish-DeNove_org_heatmap_min_o_1_min_p_1.png  used on input line 657.
 (pdftex.def)             Requested size: 316.05916pt x 221.24141pt.
 [16 <./figures/kegg/Fish-DeNove_org_heatmap_min_o_1_min_p_3.jpeg> <./figures/uniprot/Fish-DeNove_org_heatmap_min_o_1_min_p_1.png>]
 <figures/kegg/Juice-DeNovo_org_heatmap_min_o_4_min_p_4.jpeg, id=216, 722.7pt x 505.89pt>
 File: figures/kegg/Juice-DeNovo_org_heatmap_min_o_4_min_p_4.jpeg Graphic file (type jpg)
 <use figures/kegg/Juice-DeNovo_org_heatmap_min_o_4_min_p_4.jpeg>
-Package pdftex.def Info: figures/kegg/Juice-DeNovo_org_heatmap_min_o_4_min_p_4.jpeg  used on input line 632.
+Package pdftex.def Info: figures/kegg/Juice-DeNovo_org_heatmap_min_o_4_min_p_4.jpeg  used on input line 668.
 (pdftex.def)             Requested size: 316.05916pt x 221.24141pt.
 <figures/uniprot/Juice-DeNovo_org_heatmap_min_o_1_min_p_1.png, id=217, 722.7pt x 505.89pt>
 File: figures/uniprot/Juice-DeNovo_org_heatmap_min_o_1_min_p_1.png Graphic file (type png)
 <use figures/uniprot/Juice-DeNovo_org_heatmap_min_o_1_min_p_1.png>
-Package pdftex.def Info: figures/uniprot/Juice-DeNovo_org_heatmap_min_o_1_min_p_1.png  used on input line 638.
+Package pdftex.def Info: figures/uniprot/Juice-DeNovo_org_heatmap_min_o_1_min_p_1.png  used on input line 674.
 (pdftex.def)             Requested size: 316.05916pt x 221.24141pt.
 [17 <./figures/kegg/Juice-DeNovo_org_heatmap_min_o_4_min_p_4.jpeg> <./figures/uniprot/Juice-DeNovo_org_heatmap_min_o_1_min_p_1.png>]
 <figures/kegg/Milk-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg, id=225, 722.7pt x 505.89pt>
 File: figures/kegg/Milk-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg Graphic file (type jpg)
 <use figures/kegg/Milk-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg>
-Package pdftex.def Info: figures/kegg/Milk-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg  used on input line 648.
+Package pdftex.def Info: figures/kegg/Milk-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg  used on input line 684.
 (pdftex.def)             Requested size: 316.05916pt x 221.24141pt.
 <figures/uniprot/Milk-DeNovo_org_heatmap_min_o_0_min_p_0.png, id=226, 722.7pt x 505.89pt>
 File: figures/uniprot/Milk-DeNovo_org_heatmap_min_o_0_min_p_0.png Graphic file (type png)
 <use figures/uniprot/Milk-DeNovo_org_heatmap_min_o_0_min_p_0.png>
-Package pdftex.def Info: figures/uniprot/Milk-DeNovo_org_heatmap_min_o_0_min_p_0.png  used on input line 654.
+Package pdftex.def Info: figures/uniprot/Milk-DeNovo_org_heatmap_min_o_0_min_p_0.png  used on input line 690.
 (pdftex.def)             Requested size: 316.05916pt x 221.24141pt.
 [18 <./figures/kegg/Milk-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg> <./figures/uniprot/Milk-DeNovo_org_heatmap_min_o_0_min_p_0.png>]
 <figures/kegg/Oyster-DeNovo_org_heatmap_min_o_5_min_p_3.jpeg, id=233, 722.7pt x 505.89pt>
 File: figures/kegg/Oyster-DeNovo_org_heatmap_min_o_5_min_p_3.jpeg Graphic file (type jpg)
 <use figures/kegg/Oyster-DeNovo_org_heatmap_min_o_5_min_p_3.jpeg>
-Package pdftex.def Info: figures/kegg/Oyster-DeNovo_org_heatmap_min_o_5_min_p_3.jpeg  used on input line 664.
+Package pdftex.def Info: figures/kegg/Oyster-DeNovo_org_heatmap_min_o_5_min_p_3.jpeg  used on input line 700.
 (pdftex.def)             Requested size: 316.05916pt x 221.24141pt.
 <figures/uniprot/Oyster-DeNovo_org_heatmap_min_o_1_min_p_1.png, id=234, 722.7pt x 505.89pt>
 File: figures/uniprot/Oyster-DeNovo_org_heatmap_min_o_1_min_p_1.png Graphic file (type png)
 <use figures/uniprot/Oyster-DeNovo_org_heatmap_min_o_1_min_p_1.png>
-Package pdftex.def Info: figures/uniprot/Oyster-DeNovo_org_heatmap_min_o_1_min_p_1.png  used on input line 670.
+Package pdftex.def Info: figures/uniprot/Oyster-DeNovo_org_heatmap_min_o_1_min_p_1.png  used on input line 706.
 (pdftex.def)             Requested size: 316.05916pt x 221.24141pt.
 [19 <./figures/kegg/Oyster-DeNovo_org_heatmap_min_o_5_min_p_3.jpeg> <./figures/uniprot/Oyster-DeNovo_org_heatmap_min_o_1_min_p_1.png>] [20
 
@@ -675,13 +685,13 @@ Package rerunfilecheck Info: File `capstone_vogel.out' has not changed.
 Here is how much of TeX's memory you used:
  11918 strings out of 476931
  189851 string characters out of 5825076
- 537057 words of memory out of 5000000
+ 544108 words of memory out of 5000000
  32873 multiletter control sequences out of 15000+600000
  528498 words of font info for 72 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  72i,7n,77p,536b,539s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/home/danvogel/.TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/home/danvogel/.TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</home/danvogel/.TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></home/danvogel/.TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></home/danvogel/.TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb></home/danvogel/.TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb></home/danvogel/.TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb></home/danvogel/.TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb></home/danvogel/.TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt8.pfb>
-Output written on capstone_vogel.pdf (22 pages, 4311161 bytes).
+Output written on capstone_vogel.pdf (22 pages, 4311059 bytes).
 PDF statistics:
  314 PDF objects out of 1000 (max. 8388607)
  256 compressed objects within 3 object streams
