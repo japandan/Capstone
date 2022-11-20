@@ -1,0 +1,11 @@
+name: Publish Document
+title:
+username:
+account: rpubs
+server: rpubs.com
+hostUrl: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/972912/932983d3cb32437faeb0e82507f9fc8b
+bundleId: https://api.rpubs.com/api/v1/document/972912/932983d3cb32437faeb0e82507f9fc8b
+url: http://rpubs.com/japandan/972912
+when: 1668964371.88688
+lastSyncTime: 1668964371.8869
