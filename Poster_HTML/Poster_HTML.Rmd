@@ -1,5 +1,5 @@
 ---
-title: Building a Peptide Database to Perform Automated Forensic Analysis of Toxins using Mass Spectrometry
+title: Building Database to Perform Forensic Analysis of Toxins using Mass Spectrometry
 author:
   - name: Daniel Vogel
     affil: 1
@@ -12,7 +12,7 @@ affiliation:
 #poster_width: "45in" #posterdown default
 poster_height: "36in" #web recommended size
 poster_width: "48in" #web recommended size
-column_numbers: 3
+column_numbers: 4
 #logoright_name: 1C_Vertical.jpeg
 logoleft_name: 4C_Vertical.jpeg
 # Hood logo colors
@@ -40,16 +40,16 @@ Bioterrorism has created a need for the rapid analysis of samples which may cont
 2. Create a MARLOWE database with UniProt Proteomes
 
 # Methods
-Installed MARLOWE on a 32-core, 500GB ram Ubuntu Linux server with MySQL 8.0.31 to host the UniProt candidate database. MARLOWE packages were modified to run correctly on R version 4.2.1 using RStudio IDE.
+Installed MARLOWE on a 32-core, 500GB ram Ubuntu Linux server with MySQL 8.0.31 to host the UniProt candidate database. MARLOWE packages were modified to run correctly on Linux with R version 4.2.1 using RStudio IDE.
 
 The function of MARLOWE was evaluated on the KEGG version and the UniProt version with 8 data files from biological samples including Fish, Milk, Oyster, Juice and Castor bean. MARLOWE was run with the data that has been processed by PEAKS DeNovo assembler to determine the peptides contained in the samples. The organism identified from each MARLOWE run was compared with the actual contents of the sample in order to make a conclusion on performance or improvements needed.
 
-The parse_fasta.R package was developed to read UniProt proteome FASTA files.  The FASTA format for the UniProt database contains the minimum required fields for MARLOWE but must be parsed differently since it is vastly different from the KEGG format. There are two different FASTA header formats used by UniProt Uniref and UniProtKB. The parse_fasta R function, examines the file to determine which header format is in use and applies the appropriate parsing via Regular expressions. 
+I wrote the parse_fasta.R package to read UniProt proteome FASTA files. The FASTA format for the UniProt database contains the minimum required fields for MARLOWE but is vastly different from the KEGG format. The parse_fasta function examines the file to determine which UniProt header format is in use and applies the appropriate parsing via Regular expressions. 
 
-UniProt identifies organisms with NCBI taxonID (OX). The KEGG database used the unique kegg_id identfier.  Prefixing "U" in front to the integer taxonIDreplace the kegg_id key index field for organisms downloaded from UniProt. The KEGG .ent files provide more fields than are available in the UniProt FASTA header so many fields are set to NULL for the UniProt organism data. These include Pathways, Database Links, Module, Brite, Position, and Motif. They are not required for the MARLOWE algorithm.
+The KEGG database used the unique kegg_id identifier.  Prefixing "U" in front to the integer taxonID replaced the kegg_id key field for organisms downloaded from UniProt. The KEGG .ent files provide more fields than the UniProt FASTA header so some fields are set to NULL for the UniProt organism data. These include Pathways, Database Links, Module, Brite, Position, and Motif. They are not required for the MARLOWE algorithm.
 
 # Results
-I built a minimal "candidate" database with UniProt proteome data for 9 organisms matching those contained in the test samples. Building the database involves downloading and parsing FASTA proteome files, then inserting organism identification into the database along with the amino acid sequences for all proteins and the peptides that result from digesting these proteins with Trypsin. A final step is to upload NCBI taxonomy data for all organisms used to produce the MARLOWE heatmaps. The following shows the contents of the MySQL database to verify organisms have been inserted correctly. The organisms inserted and the quantities of peptides which resulted from the in-silico digestion of proteins are shown. The strong peptide count is also calculated and was verified.
+I built a minimal "candidate" database with UniProt proteome data for 9 organisms matching those contained in the test samples. Building the database involves downloading and parsing FASTA proteome files, then inserting organism identification into the database along with the amino acid sequences for all proteins and the peptides that result from digesting these proteins with Trypsin. A final step is to upload NCBI taxonomy data for all organisms used to produce the MARLOWE heatmaps. The following shows the contents of the MySQL database to verify organisms have been inserted correctly. The organisms inserted and the quantities of peptides which resulted from the in-silico digestion of proteins are shown. Strong peptides which are present in multiple organisms in a genus is calculated.
 ```{r table1, echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
 
 database_query <- data.frame(
@@ -71,24 +71,33 @@ knitr::kable(database_query[,-c(1,3,7) ],
              caption = "Query of Organisms Inserted into the Candidate Database",
              digits = 0) 
 ```
-## Accuracy
-Here is the MARLOWE output for a Ricinus Communis lab sample. R. communis was correctly identified with a score of 420 on UniProt and 303 on KEGG database.
-```{r figure1, cho=FALSE, message=FALSE, warnings=FALSE, out.width="100%", fig.cap = "HeatMap Generated by MARLOWE with UniProt DB showing it correctly identified R. communis (castor bean) in the sample"}
-  knitr::include_graphics( "555510-DeNovo_org_heatmap_min_o_1_min_p_1.png" )
+
+
+MARLOWE identified 7 out of 8 samples using both KEGG and UniProt. Both databases were not able to identify 555558-DeNovo which may point to an issue in the sample. MARLOWE outputs a HeatMap showing the most likely organisms contained in the sample.
+
+```{r figure1, cho=FALSE, message=FALSE, warnings=FALSE, out.width="100%", fig.cap = "HeatMap Generated by MARLOWE with KEGG DB showing it correctly identified R. communis (castor bean) in the sample with score 303 strong peptides."}
+  knitr::include_graphics( "KEGG_555510-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg" )
 ```
-The MARLOWE score for each test sample is show in Figure 2. The contents of the sample was correctly identified in 7 out of 8 samples. Additionally, in the Fish sample,
+
+As expected, the KEGG HeatMap shows a larger quantity of organisms that share peptides.  The KEGG database contains 5,851 organisms and almost 274 million peptides.
+
+```{r figure2, cho=FALSE, message=FALSE, warnings=FALSE, out.width="100%", fig.cap = "HeatMap Generated by MARLOWE with UniProt DB showing it correctly identified R. communis (castor bean) in the sample with score 420 strong peptides."}
+  knitr::include_graphics( "UniProt_555510-DeNovo_org_heatmap_min_o_0_min_p_0.png" )
+```
+
+The MARLOWE score for each test sample is shown in Figure 3. The contents of the sample was correctly identified in 7 out of 8 samples. Additionally, in the Fish sample,
 P. fragi bacteria was found, indicating spoilage. In the Juice sample, 2 orange species were detected.
 
-```{r figure2, echo=FALSE, message=FALSE, warnings=FALSE, out.width="100%", fig.cap="Results from MARLOWE with 8 samples" }
+```{r figure3, echo=FALSE, message=FALSE, warnings=FALSE, out.width="100%", fig.cap="Results from MARLOWE with 8 samples" }
 
 table_results <- data.frame( 
-  Sample=c("R. communis 9","R. communis GC4","55551-DeNovo","555558-DeNovo",
+  Sample=c("R. communis 9","R. communis GC4","555510-DeNovo","555558-DeNovo",
            "Fish-DeNove","Juice-DeNovo","Milk-DeNovo","Oyster-DeNovo",
-           "R. communis 9","R. communis GC4","55551-DeNovo","555558-DeNovo",
+           "R. communis 9","R. communis GC4","555510-DeNovo","555558-DeNovo",
            "Fish-DeNove","Juice-DeNovo","Milk-DeNovo","Oyster-DeNovo"),
   DB=c("UniProt","UniProt","UniProt","UniProt","UniProt","UniProt","UniProt","UniProt",
              "KEGG","KEGG","KEGG","KEGG","KEGG","KEGG","KEGG","KEGG"),
-  Score=c(164,654,420,2,330,130,432,714,#UniProt scores
+  Score=c(164,654,420,2,330,192,432,714,#UniProt scores
           111,476,303,0,16,423,109,306) #KEGG scores
   
   )
@@ -122,21 +131,18 @@ plot_results
 
 ```
 # Next Steps
-Alternate Digestion Enzymes:
-Currently MARLOWE only supports Trypsin digest. We can construct another version of the database where the peptides have been digested with an alternate protease enzyme.
 
-Efficiency Improvements:
-The time required to build the sample database was about 24 hours with 9 organisms. We will need to improve the speed of this process using parallel computing and multiple servers. Exploring faster algorithms may also lead to improvements.
+We will need to improve the speed of the database building process using parallel computing and multiple servers. The time required to build the sample database on with 9 organisms was about 24 hours. 
+Building a fully functional database will require 10,000-22,000 organisms.
 
-User Interface Improvements:
-Converting the program to run in batch from the Linux bash shell would be more efficient and less error prone than the current RMarkdown template run within RStudio.
-Another option is to run MARLOWE from a web server with a GUI interface. This would be possible by creating an R-Shiny version where the scientist could select their input files using a GUI and then the pipeline would run automatically and produce and output report that could be viewed and downloaded.
+Converting the program to run in batch from the Linux shell would be more efficient and less error prone than using RStudio interactively. Parameters can be specified in the command line.
+
+Currently MARLOWE only supports Trypsin protease. We can construct another version of the database where the proteins have been digested with an alternate protease.
 
 # Conclusion
 This project was a proof of concept to validate the parse_fasta package and the process for building a UniProt sourced candidate database.
-It has produced accurate and expected results with the small number of test cases that were used. Building a fully functional database will require 10,000-22,000 organisms. It is best to work toward this incrementaly and evaluate performance of each iteration. 
+It has produced accurate and expected results with the test cases. 
 ```{r, include=FALSE}
 knitr::write_bib(c('knitr','rmarkdown','posterdown','pagedown'), 'packages.bib')
 ```
-
 # References
