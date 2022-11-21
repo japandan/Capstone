@@ -35,7 +35,7 @@ library( ggplot2 )
 
 ```
 # Introduction
-Bioterrorism has created a need for the rapid analysis of samples which may contain toxins, viruses, or other deadly agents. Mass Spectrometry (MS) provides a tool for use in proteomics for accurate and comprehensive profiling of proteins. An automated software tool which can search for matches against a proteome database is useful for forensic analysis of samples and an effective countermeasure to Bioterrorist attacks. A software tool called MARLOWE was tested and it worked well but failed to identify organisms of interest such as the toxin, Arbrin, that were missing from the KEGG.JP[@kanehisa2002kegg] database on which it relies. FTP access to KEGG.JP is cost prohibitive. Here we create a database for MARLOWE using public Uniprot.org proteome database [@10.1093/nar/gkaa1100]. By creating a process to update this MARLOWE database, we can ensure that target organism are present and identified correctly.
+Bioterrorism has created a need for rapid analysis of samples which may contain toxins and other deadly agents. Mass Spectrometry(MS) provides a proteomics tool for accurate and comprehensive profiling of proteins. A software tool which can search for matches against a proteome database is useful for forensic analysis of samples. A software tool called MARLOWE was tested and worked well but failed to identify organisms such as the toxin, Arbrin, that were missing from the KEGG.JP[@kanehisa2002kegg] database on which it relies. FTP access to KEGG.JP is cost prohibitive. Here we create a database and code modification which use public Uniprot.org proteome database [@10.1093/nar/gkaa1100]. By creating a process to update this database, we can ensure that target organism are identified correctly.
 
 # Objectives
 1. Create R package to parse UniProt FASTA
@@ -44,14 +44,15 @@ Bioterrorism has created a need for the rapid analysis of samples which may cont
 # Methods
 Installed MARLOWE on a 32-core, 500GB ram Ubuntu Linux server with MySQL 8.0.31 to host the UniProt candidate database. MARLOWE packages were modified to run correctly on Linux with R version 4.2.1 using RStudio IDE.
 
-The function of MARLOWE was evaluated on the KEGG version and the UniProt version with 8 data files from biological samples including Fish, Milk, Oyster, Juice and Castor bean. MARLOWE was run with the data that has been processed by PEAKS DeNovo assembler to determine the peptides contained in the samples. The organism identified from each MARLOWE run was compared with the actual contents of the sample in order to make a conclusion on performance or improvements needed.
-
-I wrote the parse_fasta.R package to read UniProt proteome FASTA files. The FASTA format for the UniProt database contains the minimum required fields for MARLOWE but is vastly different from the KEGG format. The parse_fasta function examines the file to determine which UniProt header format is in use and applies the appropriate parsing via Regular expressions. 
-
-The KEGG database used the unique kegg_id identifier.  Prefixing "U" in front to the integer taxonID replaced the kegg_id key field for organisms downloaded from UniProt. The KEGG files provide more fields than the UniProt FASTA header so some fields are set to NULL for the UniProt organism data. These include Pathways, Database Links, Module, Brite, Position, and Motif. They are not required for the MARLOWE algorithm.
+The function of MARLOWE was evaluated on the KEGG and UniProt Databases with 8 data files from biological samples including Fish, Milk, Oyster, Juice and Castor bean. The sample data that has been processed by PEAKS DeNovo assembler to determine the peptides contained in the samples. The organism identified from each MARLOWE run was compared with the actual contents of the sample and performance was evaluated.
 
 # Results
-I built a minimal "candidate" database with UniProt proteome data for 9 organisms matching those contained in the test samples. Building the database involves downloading and parsing FASTA proteome files, then inserting organism identification into the database along with the amino acid sequences for all proteins and the peptides that result from digesting these proteins with Trypsin. A final step is to upload NCBI taxonomy data for all organisms used to produce the MARLOWE heatmaps. The following shows the contents of the MySQL database to verify organisms have been inserted correctly. The organisms inserted and the quantities of peptides which resulted from the in-silico digestion of proteins are shown. Strong peptides which are present in multiple organisms in a genus is calculated.
+I wrote the parse_fasta.R package to read UniProt proteome FASTA files. The FASTA format for the UniProt database contains the minimum required fields for MARLOWE but is vastly different from the KEGG format. The parse_fasta function examines the file to determine which UniProt header format is in use and applies the appropriate parsing via Regular expressions. KEGG files provide more fields than the UniProt FASTA header, however missing fields are not required for the MARLOWE algorithm.
+```{r parse, cho=FALSE, message=FALSE, warnings=FALSE, out.width="100%", fig.cap = "Flowchart showing in-silico digestion of protein amino acid sequence to determine peptides."}
+  knitr::include_graphics( "../figures/parse_fasta.png" )
+```
+
+A minimal "candidate" database with UniProt proteomes for 9 organisms matching the samples was built. This involved downloading FASTA proteome files, parsing with parse_fasta(), then inserting organism identification into the database along with the amino acid sequences for proteins and peptides that result from digesting the proteins with Trypsin. A final step is to upload NCBI taxonomy data for all organisms used to produce the MARLOWE heatmaps. Table 1 shows the organisms that have been inserted and the quantities of proteins and peptides for each. Strong peptides which are present in multiple organisms in a genus are determined for use in the scoring algorithm.
 ```{r table1, echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
 
 database_query <- data.frame(
