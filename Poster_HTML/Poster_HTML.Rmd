@@ -108,7 +108,7 @@ table_results <- data.frame(
 # HOOD_gray <- "#a39994"
 # HOOD_blue <- "#30608b"
 
-plot_results <- ggplot( table_results) +  
+plot_results <- ggplot( table_results ) +  
           geom_bar( 
             aes( fill = DB, x = Sample, y = Score, group = DB ),
             position="dodge", stat = "identity"
@@ -126,6 +126,7 @@ plot_results <- ggplot( table_results) +
           coord_flip()
 
 plot_results
+ggsave( filename="results_bar.png")
 
 ```
 # Next Steps

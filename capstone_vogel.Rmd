@@ -114,7 +114,11 @@ UniProtKB Fasta header format
 \chapter{Results}
 \section{UniProt candidate database}
 
-I built a minimal "candidate" database with UniProt (Release 2022_04) Proteome data for 9 organisms including those contained in the lab samples that were analysed with Mass Spectrometry. Building the database involves downloading and parsing fasta proteome files, then inserting into the database along with the amino acid sequences for all proteins and the peptides that result from digesting these proteins with Trypsin. A final step is to upload NCBI taxonomy data for all organisms used to produce the MARLOWE heatmaps. The following shows the contents of the MySQL database to verify organisms have been inserted correctly.  As a validation of the success, the following SQL query shows the organisms inserted and they quantities of peptides which resulted from the in-silico digestion. The filtering for strong peptide count can also be verified.
+I built a minimal "candidate" database with UniProt (Release 2022_04) Proteome data for 9 organisms including those contained in the lab samples that were analysed with Mass Spectrometry. Building the database involves downloading and parsing fasta proteome files, then inserting into the database along with the amino acid sequences for all proteins and the peptides that result from digesting these proteins with Trypsin. This process is shown in Figure 1.
+
+![Flowchart showing parse_fasta in the database creating process.](figures/parse_fasta.png){width=100%}
+
+A final step is to upload NCBI taxonomy data for all organisms used to produce the MARLOWE heatmaps. The following shows the contents of the MySQL database to verify organisms have been inserted correctly.  As a validation of the success, the following SQL query shows the organisms inserted and they quantities of peptides which resulted from the in-silico digestion. The filtering for strong peptide count can also be verified.
 
 ```{r table1, echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
 
