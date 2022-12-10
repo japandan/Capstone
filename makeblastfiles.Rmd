@@ -1,0 +1,38 @@
+---
+title: "peaks"
+author: "Daniel Vogel"
+date: '2022-11-26'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library( Biostrings )
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r peaks}
+peaks<- readAAStringSet( "blast/r.communis.peptides.fasta")
+writeXStringSet( peaks[1:10], file="blast/r.communis1_10.fasta")
+writeXStringSet( peaks[1:100], file="blast/r.communis1_100.fasta")
+writeXStringSet( peaks[1:400], file="blast/r.communis1_400.fasta")
+# breaks the file up
+writeXStringSet( peaks[1:1000], file="blast/r.communis1_1000.fasta")
+writeXStringSet( peaks[1001:1999], file="blast/r.communis1001_1999.fasta")
+writeXStringSet( peaks[2000:2999], file="blast/r.communis2000_2999.fasta")
+writeXStringSet( peaks[3000:3999], file="blast/r.communis3000_3999.fasta")
+writeXStringSet( peaks[4000:4136], file="blast/r.communis4000_4136.fasta")
+## try bigger file- 2 files
+writeXStringSet( peaks[1:1999], file="blast/r.communis_1_1999.fasta")
+writeXStringSet( peaks[2000:4136], file="blast/r.communis_2000_4136.fasta")
+#         V1________V2___________V3_____________V4
+# Fields: query id, subject ids, query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+## read hit tables
+hit5<-read.csv("blast/Alignment-HitTable.4000_4136.csv", header=FALSE)
+
+

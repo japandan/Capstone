@@ -1,5 +1,5 @@
 ---
-title: Building Database to Perform Forensic Analysis of Toxins using Mass Spectrometry
+title: Building a Peptide Database to Detect Bioweapons using Mass Spectrometry
 author:
   - name: Daniel Vogel
     affil: 1
@@ -25,7 +25,7 @@ accent_colour: "#cc0000"
 output: 
   posterdown::posterdown_html:
     self_contained: true
-#knit: pagedown::chrome_print
+knit: pagedown::chrome_print
 bibliography: capstone.bib
 ---
 

@@ -1,0 +1,8816 @@
+BLASTP 2.13.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: NCBI Protein Reference Sequences
+           236,694,025 sequences; 91,271,056,773 total letters
+
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.297    0.135    0.397    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.121    0.349    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.149    0.467    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.138    0.344    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.123    0.400    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.127    0.335    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.133    0.391    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.131    0.424    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.139    0.468    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.126    0.388    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.298    0.117    0.263    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.335    0.153    0.456    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.129    0.289    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.141    0.645    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=17
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+XP_002522854.2 2S seed storage albumin protein [Ricinus communis]     34.3    1.7  
+XP_002522855.2 2S seed storage albumin protein [Ricinus communis]     34.3    1.7  
+
+
+>XP_002522854.2 2S seed storage albumin protein [Ricinus communis]
+Length=258
+
+ Score = 34.3 bits (77),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    EQQQSQGQLQGQDVFEA  17
+            EQQQSQGQLQGQDVFEA
+Sbjct  222  EQQQSQGQLQGQDVFEA  238
+
+
+>XP_002522855.2 2S seed storage albumin protein [Ricinus communis]
+Length=258
+
+ Score = 34.3 bits (77),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    EQQQSQGQLQGQDVFEA  17
+            EQQQSQGQLQGQDVFEA
+Sbjct  222  EQQQSQGQLQGQDVFEA  238
+
+
+
+Lambda      K        H        a         alpha
+   0.303    0.120    0.304    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1551607965141
+
+
+Query= ricin 555510
+
+Length=12
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.301    0.111    0.271    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1095252681276
+
+
+Query= ricin 555510
+
+Length=12
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.302    0.117    0.312    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1095252681276
+
+
+Query= ricin 555510
+
+Length=14
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.300    0.125    0.332    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1277794794822
+
+
+Query= ricin 555510
+
+Length=10
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.122    0.406    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 912710567730
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.302    0.127    0.338    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.305    0.131    0.345    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.306    0.128    0.367    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.296    0.113    0.278    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.308    0.108    0.301    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.335    0.136    0.535    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.304    0.117    0.324    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.275    0.100    0.205    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.111    0.345    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.134    0.485    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.308    0.131    0.339    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.308    0.131    0.339    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=11
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.132    0.455    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1003981624503
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.119    0.463    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.337    0.143    0.624    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.129    0.447    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.133    0.402    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.125    0.302    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.126    0.388    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.129    0.447    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.287    0.105    0.285    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.294   0.0979    0.217    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=10
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.128    0.422    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 912710567730
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.128    0.347    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.143    0.489    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.308    0.131    0.339    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=11
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.132    0.455    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1003981624503
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.297    0.117    0.340    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.127    0.314    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.436    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.121    0.349    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=11
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.122    0.336    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1003981624503
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.124    0.392    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.137    0.423    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.128    0.347    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.134    0.589    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.127    0.314    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.126    0.388    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.436    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.133    0.446    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.133    0.391    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.121    0.349    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.302    0.104    0.240    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.121    0.307    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=11
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.127    0.422    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1003981624503
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.135    0.365    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.145    0.572    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.149    0.467    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.122    0.421    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.132    0.375    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.125    0.302    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.294   0.0979    0.217    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.129    0.344    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.135    0.365    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.133    0.359    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.149    0.467    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.129    0.439    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.342    0.156    0.559    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.334    0.159    0.560    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.302    0.104    0.240    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.129    0.439    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.341    0.153    0.665    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.129    0.344    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.123    0.400    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.332    0.146    0.626    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.147    0.437    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=11
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.129    0.371    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1003981624503
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.301    0.119    0.303    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.300   0.0989    0.242    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.106    0.273    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.334    0.143    0.659    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.126    0.324    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.132    0.491    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.143    0.405    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.129    0.289    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.127    0.388    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.149    0.467    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=14
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.300    0.125    0.332    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1277794794822
+
+
+Query= ricin 555510
+
+Length=13
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.300    0.128    0.344    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1186523738049
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.127    0.388    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.302    0.131    0.370    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.298    0.117    0.263    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.289   0.0981    0.223    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.145    0.373    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.124    0.347    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.294    0.115    0.263    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.128    0.416    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.294    0.108    0.240    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.141    0.415    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=14
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.300    0.125    0.332    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1277794794822
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.145    0.325    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.145    0.373    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.302    0.131    0.370    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=17
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+XP_002522855.2 2S seed storage albumin protein [Ricinus communis]     35.4    0.57 
+XP_002522854.2 2S seed storage albumin protein [Ricinus communis]     35.4    0.59 
+
+
+>XP_002522855.2 2S seed storage albumin protein [Ricinus communis]
+Length=258
+
+ Score = 35.4 bits (80),  Expect = 0.57, Method: Compositional matrix adjust.
+ Identities = 16/17 (94%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    AEDQLQQGQLHGEESER  17
+            AEDQ+QQGQLHGEESER
+Sbjct  117  AEDQIQQGQLHGEESER  133
+
+
+>XP_002522854.2 2S seed storage albumin protein [Ricinus communis]
+Length=258
+
+ Score = 35.4 bits (80),  Expect = 0.59, Method: Compositional matrix adjust.
+ Identities = 16/17 (94%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    AEDQLQQGQLHGEESER  17
+            AEDQ+QQGQLHGEESER
+Sbjct  117  AEDQIQQGQLHGEESER  133
+
+
+
+Lambda      K        H        a         alpha
+   0.298    0.121    0.311    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1551607965141
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.308    0.123    0.520    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.303    0.138    0.403    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=11
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.128    0.359    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1003981624503
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.342    0.156    0.559    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.129    0.369    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=14
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.300    0.125    0.332    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1277794794822
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.149    0.577    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.121    0.349    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.124    0.337    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=14
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.304    0.127    0.346    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1277794794822
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.300    0.116    0.241    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.127    0.388    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.123    0.400    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.144    0.389    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=15
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.304    0.128    0.340    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1369065851595
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.141    0.415    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=11
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.130    0.397    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1003981624503
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.135    0.475    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.346    0.156    0.545    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.285    0.106    0.213    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=17
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.301    0.123    0.323    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1551607965141
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.302    0.131    0.370    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=10
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.127    0.454    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 912710567730
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.303    0.122    0.354    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=11
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.301    0.113    0.278    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1003981624503
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.125    0.381    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=12
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+XP_048231875.1 alpha-galactosidase 3 isoform X2 [Ricinus communis]    33.5    2.2  
+XP_015575755.1 alpha-galactosidase 3 isoform X1 [Ricinus communis]    33.1    2.8  
+
+
+>XP_048231875.1 alpha-galactosidase 3 isoform X2 [Ricinus communis]
+Length=412
+
+ Score = 33.5 bits (75),  Expect = 2.2, Method: Composition-based stats.
+ Identities = 12/12 (100%), Positives = 12/12 (100%), Gaps = 0/12 (0%)
+
+Query  1    AHDCAMYTFTPK  12
+            AHDCAMYTFTPK
+Sbjct  394  AHDCAMYTFTPK  405
+
+
+>XP_015575755.1 alpha-galactosidase 3 isoform X1 [Ricinus communis]
+Length=434
+
+ Score = 33.1 bits (74),  Expect = 2.8, Method: Composition-based stats.
+ Identities = 12/12 (100%), Positives = 12/12 (100%), Gaps = 0/12 (0%)
+
+Query  1    AHDCAMYTFTPK  12
+            AHDCAMYTFTPK
+Sbjct  416  AHDCAMYTFTPK  427
+
+
+
+Lambda      K        H        a         alpha
+   0.329    0.132    0.477    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1095252681276
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.335    0.153    0.456    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.123    0.421    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.127    0.385    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=16
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.298    0.121    0.315    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1460336908368
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.297    0.113    0.264    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.143    0.472    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.130    0.434    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.335    0.153    0.415    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.127    0.345    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=10
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.300    0.120    0.283    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 912710567730
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.329    0.148    0.593    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.285    0.106    0.213    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.342    0.137    0.539    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.135    0.475    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.121    0.331    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.329    0.131    0.381    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.349    0.150    0.668    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.329    0.137    0.439    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.336    0.144    0.496    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.339    0.142    0.590    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.131    0.438    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=13
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.308    0.129    0.348    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1186523738049
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.129    0.374    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=17
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+XP_002522855.2 2S seed storage albumin protein [Ricinus communis]     34.7    1.2  
+XP_002522854.2 2S seed storage albumin protein [Ricinus communis]     34.7    1.3  
+
+
+>XP_002522855.2 2S seed storage albumin protein [Ricinus communis]
+Length=258
+
+ Score = 34.7 bits (78),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 15/17 (88%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    LAEDQLQQGQLHGEESE  17
+            +AEDQ+QQGQLHGEESE
+Sbjct  116  IAEDQIQQGQLHGEESE  132
+
+
+>XP_002522854.2 2S seed storage albumin protein [Ricinus communis]
+Length=258
+
+ Score = 34.7 bits (78),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 15/17 (88%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    LAEDQLQQGQLHGEESE  17
+            +AEDQ+QQGQLHGEESE
+Sbjct  116  IAEDQIQQGQLHGEESE  132
+
+
+
+Lambda      K        H        a         alpha
+   0.297    0.122    0.312    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1551607965141
+
+
+Query= ricin 555510
+
+Length=11
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.121    0.324    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1003981624503
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.134    0.358    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.335    0.153    0.456    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=13
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.136    0.452    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1186523738049
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.129    0.429    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.351    0.156    0.690    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.122    0.362    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.303    0.138    0.403    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.125    0.381    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=10
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.124    0.336    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 912710567730
+
+
+Query= ricin 555510
+
+Length=10
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.113    0.435    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 912710567730
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.132    0.485    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.111    0.402    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.335    0.153    0.456    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.330    0.140    0.615    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.308    0.121    0.323    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.296    0.117    0.279    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.307    0.122    0.300    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.126    0.348    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.142    0.357    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.122    0.515    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.126    0.327    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.151    0.373    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.305    0.114    0.260    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.329    0.133    0.347    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.336    0.158    0.559    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.142    0.409    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.121    0.464    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.125    0.508    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.334    0.153    0.682    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.334    0.138    0.535    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.118    0.312    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.304    0.119    0.261    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.146    0.667    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.154    0.478    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.128    0.347    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.336    0.148    0.406    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.150    0.451    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.122    0.322    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=10
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.123    0.292    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 912710567730
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.134    0.344    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.146    0.435    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.137    0.374    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.120    0.472    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=11
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.121    0.324    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1003981624503
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.330    0.146    0.499    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.306    0.134    0.403    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=10
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.122    0.406    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 912710567730
+
+
+Query= ricin 555510
+
+Length=19
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+XP_002522854.2 2S seed storage albumin protein [Ricinus communis]     39.7    0.020
+XP_002522855.2 2S seed storage albumin protein [Ricinus communis]     39.7    0.020
+
+
+>XP_002522854.2 2S seed storage albumin protein [Ricinus communis]
+Length=258
+
+ Score = 39.7 bits (91),  Expect = 0.020, Method: Compositional matrix adjust.
+ Identities = 17/19 (89%), Positives = 19/19 (100%), Gaps = 0/19 (0%)
+
+Query  1    YLAEDQLQQGQLHGEESER  19
+            Y+AEDQ+QQGQLHGEESER
+Sbjct  115  YIAEDQIQQGQLHGEESER  133
+
+
+>XP_002522855.2 2S seed storage albumin protein [Ricinus communis]
+Length=258
+
+ Score = 39.7 bits (91),  Expect = 0.020, Method: Compositional matrix adjust.
+ Identities = 17/19 (89%), Positives = 19/19 (100%), Gaps = 0/19 (0%)
+
+Query  1    YLAEDQLQQGQLHGEESER  19
+            Y+AEDQ+QQGQLHGEESER
+Sbjct  115  YIAEDQIQQGQLHGEESER  133
+
+
+
+Lambda      K        H        a         alpha
+   0.304    0.127    0.336    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1734150078687
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.285    0.106    0.213    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=10
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.330    0.154    0.528    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 912710567730
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.122    0.314    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=11
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.120    0.342    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1003981624503
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.336    0.132    0.509    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.123    0.307    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.125    0.309    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.121    0.349    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=10
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.122    0.406    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 912710567730
+
+
+Query= ricin 555510
+
+Length=18
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+XP_002522855.2 2S seed storage albumin protein [Ricinus communis]     36.6    0.23 
+XP_002522854.2 2S seed storage albumin protein [Ricinus communis]     36.6    0.24 
+
+
+>XP_002522855.2 2S seed storage albumin protein [Ricinus communis]
+Length=258
+
+ Score = 36.6 bits (83),  Expect = 0.23, Method: Compositional matrix adjust.
+ Identities = 16/18 (89%), Positives = 18/18 (100%), Gaps = 0/18 (0%)
+
+Query  1    LAEDQLQQGQLHGEESER  18
+            +AEDQ+QQGQLHGEESER
+Sbjct  116  IAEDQIQQGQLHGEESER  133
+
+
+>XP_002522854.2 2S seed storage albumin protein [Ricinus communis]
+Length=258
+
+ Score = 36.6 bits (83),  Expect = 0.24, Method: Compositional matrix adjust.
+ Identities = 16/18 (89%), Positives = 18/18 (100%), Gaps = 0/18 (0%)
+
+Query  1    LAEDQLQQGQLHGEESER  18
+            +AEDQ+QQGQLHGEESER
+Sbjct  116  IAEDQIQQGQLHGEESER  133
+
+
+
+Lambda      K        H        a         alpha
+   0.301    0.124    0.319    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1642879021914
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.132    0.485    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=13
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+XP_002522856.1 2S seed storage albumin protein-like [Ricinus comm...  33.5    2.1  
+
+
+>XP_002522856.1 2S seed storage albumin protein-like [Ricinus communis]
+Length=147
+
+ Score = 33.5 bits (75),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 13/13 (100%), Positives = 13/13 (100%), Gaps = 0/13 (0%)
+
+Query  1   YYPLCCDHLEQMT  13
+           YYPLCCDHLEQMT
+Sbjct  80  YYPLCCDHLEQMT  92
+
+
+
+Lambda      K        H        a         alpha
+   0.331    0.145    0.557    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1186523738049
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.148    0.838    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.338    0.157    0.434    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.337    0.163    0.488    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.331    0.159    0.501    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.130    0.291    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.356    0.154    0.544    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.135    0.342    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=13
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.138    0.428    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1186523738049
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.124    0.418    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=12
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.331    0.143    0.547    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1095252681276
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.138    0.344    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.141    0.350    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.138    0.577    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=19
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+XP_002522854.2 2S seed storage albumin protein [Ricinus communis]     39.7    0.020
+XP_002522855.2 2S seed storage albumin protein [Ricinus communis]     39.7    0.020
+
+
+>XP_002522854.2 2S seed storage albumin protein [Ricinus communis]
+Length=258
+
+ Score = 39.7 bits (91),  Expect = 0.020, Method: Compositional matrix adjust.
+ Identities = 17/19 (89%), Positives = 19/19 (100%), Gaps = 0/19 (0%)
+
+Query  1    YLAEDQLQQGQLHGEESER  19
+            Y+AEDQ+QQGQLHGEESER
+Sbjct  115  YIAEDQIQQGQLHGEESER  133
+
+
+>XP_002522855.2 2S seed storage albumin protein [Ricinus communis]
+Length=258
+
+ Score = 39.7 bits (91),  Expect = 0.020, Method: Compositional matrix adjust.
+ Identities = 17/19 (89%), Positives = 19/19 (100%), Gaps = 0/19 (0%)
+
+Query  1    YLAEDQLQQGQLHGEESER  19
+            Y+AEDQ+QQGQLHGEESER
+Sbjct  115  YIAEDQIQQGQLHGEESER  133
+
+
+
+Lambda      K        H        a         alpha
+   0.304    0.127    0.336    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1734150078687
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.343    0.156    0.548    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.142    0.615    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=14
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+XP_031272581.1 temperature-induced lipocalin-1 [Pistacia vera]        32.0    8.4  
+XP_045815282.1 temperature-induced lipocalin-1-like [Trifolium pr...  32.0    9.1  
+
+
+>XP_031272581.1 temperature-induced lipocalin-1 [Pistacia vera]
+Length=185
+
+ Score = 32.0 bits (71),  Expect = 8.4, Method: Composition-based stats.
+ Identities = 13/14 (93%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    THLDDELYNQLVEK  14
+            THLDDE+YNQLVEK
+Sbjct  130  THLDDEIYNQLVEK  143
+
+
+>XP_045815282.1 temperature-induced lipocalin-1-like [Trifolium pratense]
+Length=188
+
+ Score = 32.0 bits (71),  Expect = 9.1, Method: Composition-based stats.
+ Identities = 12/14 (86%), Positives = 14/14 (100%), Gaps = 0/14 (0%)
+
+Query  1    THLDDELYNQLVEK  14
+            THLDD++YNQLVEK
+Sbjct  153  THLDDQIYNQLVEK  166
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.133    0.366    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1277794794822
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.340    0.138    0.644    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=12
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.331    0.143    0.547    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1095252681276
+
+
+Query= ricin 555510
+
+Length=11
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.307    0.122    0.339    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1003981624503
+
+
+Query= ricin 555510
+
+Length=12
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+XP_030472091.1 glucan endo-1,3-beta-glucosidase 7-like [Syzygium ...  32.3    4.5  
+XP_012845926.1 PREDICTED: glucan endo-1,3-beta-glucosidase 7 [Ery...  32.3    5.4  
+XP_010664681.1 PREDICTED: glucan endo-1,3-beta-D-glucosidase isof...  32.3    6.0  
+XP_010254870.1 PREDICTED: glucan endo-1,3-beta-D-glucosidase [Nel...  32.0    6.1  
+XP_039035236.1 glucan endo-1,3-beta-glucosidase 7-like [Hibiscus ...  32.0    6.2  
+XP_009364443.2 LOW QUALITY PROTEIN: glucan endo-1,3-beta-D-glucos...  32.0    6.7  
+XP_012484758.1 PREDICTED: glucan endo-1,3-beta-glucosidase 7-like...  32.0    6.7  
+XP_016668815.1 glucan endo-1,3-beta-glucosidase 7 [Gossypium hirs...  32.0    7.1  
+XP_044507972.1 glucan endo-1,3-beta-glucosidase 7-like [Mangifera...  32.0    7.4  
+XP_017610080.1 PREDICTED: glucan endo-1,3-beta-glucosidase 7-like...  32.0    7.4  
+XP_050124391.1 glucan endo-1,3-beta-D-glucosidase-like [Malus syl...  32.0    7.6  
+XP_008377338.1 glucan endo-1,3-beta-D-glucosidase-like isoform X1...  32.0    7.7  
+XP_017633888.1 PREDICTED: glucan endo-1,3-beta-glucosidase 7 [Gos...  32.0    7.7  
+XP_031250729.1 glucan endo-1,3-beta-glucosidase 7 [Pistacia vera]     32.0    7.8  
+XP_041011169.1 glucan endo-1,3-beta-D-glucosidase-like isoform X1...  32.0    7.9  
+XP_022726921.1 glucan endo-1,3-beta-glucosidase 7-like [Durio zib...  32.0    7.9  
+XP_021286381.1 glucan endo-1,3-beta-glucosidase 7 [Herrania umbra...  32.0    8.1  
+XP_016691530.2 glucan endo-1,3-beta-glucosidase 7 [Gossypium hirs...  31.6    8.3  
+XP_012480317.1 PREDICTED: glucan endo-1,3-beta-glucosidase 7 [Gos...  31.6    8.6  
+XP_021896664.1 glucan endo-1,3-beta-glucosidase 7 [Carica papaya]     31.6    8.6  
+XP_039068577.1 glucan endo-1,3-beta-glucosidase 7-like [Hibiscus ...  31.6    8.7  
+XP_016714560.2 glucan endo-1,3-beta-glucosidase 7 [Gossypium hirs...  31.6    8.9  
+XP_034674207.1 LOW QUALITY PROTEIN: glucan endo-1,3-beta-D-glucos...  31.6    9.1  
+XP_002282736.1 PREDICTED: glucan endo-1,3-beta-D-glucosidase isof...  31.6    9.4  
+
+
+>XP_030472091.1 glucan endo-1,3-beta-glucosidase 7-like [Syzygium oleosum]
+Length=463
+
+ Score = 32.3 bits (72),  Expect = 4.5, Method: Composition-based stats.
+ Identities = 12/12 (100%), Positives = 12/12 (100%), Gaps = 0/12 (0%)
+
+Query  1    WNCDFSQTATLT  12
+            WNCDFSQTATLT
+Sbjct  436  WNCDFSQTATLT  447
+
+
+>XP_012845926.1 PREDICTED: glucan endo-1,3-beta-glucosidase 7 [Erythranthe guttata]
+Length=461
+
+ Score = 32.3 bits (72),  Expect = 5.4, Method: Composition-based stats.
+ Identities = 12/12 (100%), Positives = 12/12 (100%), Gaps = 0/12 (0%)
+
+Query  1    WNCDFSQTATLT  12
+            WNCDFSQTATLT
+Sbjct  434  WNCDFSQTATLT  445
+
+
+>XP_010664681.1 PREDICTED: glucan endo-1,3-beta-D-glucosidase isoform X1 [Vitis 
+vinifera]
+Length=500
+
+ Score = 32.3 bits (72),  Expect = 6.0, Method: Composition-based stats.
+ Identities = 12/12 (100%), Positives = 12/12 (100%), Gaps = 0/12 (0%)
+
+Query  1    WNCDFSQTATLT  12
+            WNCDFSQTATLT
+Sbjct  438  WNCDFSQTATLT  449
+
+
+>XP_010254870.1 PREDICTED: glucan endo-1,3-beta-D-glucosidase [Nelumbo nucifera]
+Length=512
+
+ Score = 32.0 bits (71),  Expect = 6.1, Method: Composition-based stats.
+ Identities = 12/12 (100%), Positives = 12/12 (100%), Gaps = 0/12 (0%)
+
+Query  1    WNCDFSQTATLT  12
+            WNCDFSQTATLT
+Sbjct  485  WNCDFSQTATLT  496
+
+
+>XP_039035236.1 glucan endo-1,3-beta-glucosidase 7-like [Hibiscus syriacus]
+Length=457
+
+ Score = 32.0 bits (71),  Expect = 6.2, Method: Composition-based stats.
+ Identities = 12/12 (100%), Positives = 12/12 (100%), Gaps = 0/12 (0%)
+
+Query  1    WNCDFSQTATLT  12
+            WNCDFSQTATLT
+Sbjct  430  WNCDFSQTATLT  441
+
+
+>XP_009364443.2 LOW QUALITY PROTEIN: glucan endo-1,3-beta-D-glucosidase [Pyrus 
+x bretschneideri]
+Length=470
+
+ Score = 32.0 bits (71),  Expect = 6.7, Method: Composition-based stats.
+ Identities = 12/12 (100%), Positives = 12/12 (100%), Gaps = 0/12 (0%)
+
+Query  1    WNCDFSQTATLT  12
+            WNCDFSQTATLT
+Sbjct  443  WNCDFSQTATLT  454
+
+
+>XP_012484758.1 PREDICTED: glucan endo-1,3-beta-glucosidase 7-like [Gossypium 
+raimondii]
+Length=448
+
+ Score = 32.0 bits (71),  Expect = 6.7, Method: Composition-based stats.
+ Identities = 12/12 (100%), Positives = 12/12 (100%), Gaps = 0/12 (0%)
+
+Query  1    WNCDFSQTATLT  12
+            WNCDFSQTATLT
+Sbjct  421  WNCDFSQTATLT  432
+
+
+>XP_016668815.1 glucan endo-1,3-beta-glucosidase 7 [Gossypium hirsutum]
+Length=448
+
+ Score = 32.0 bits (71),  Expect = 7.1, Method: Composition-based stats.
+ Identities = 12/12 (100%), Positives = 12/12 (100%), Gaps = 0/12 (0%)
+
+Query  1    WNCDFSQTATLT  12
+            WNCDFSQTATLT
+Sbjct  421  WNCDFSQTATLT  432
+
+
+>XP_044507972.1 glucan endo-1,3-beta-glucosidase 7-like [Mangifera indica]
+Length=448
+
+ Score = 32.0 bits (71),  Expect = 7.4, Method: Composition-based stats.
+ Identities = 12/12 (100%), Positives = 12/12 (100%), Gaps = 0/12 (0%)
+
+Query  1    WNCDFSQTATLT  12
+            WNCDFSQTATLT
+Sbjct  421  WNCDFSQTATLT  432
+
+
+>XP_017610080.1 PREDICTED: glucan endo-1,3-beta-glucosidase 7-like [Gossypium 
+arboreum]
+Length=448
+
+ Score = 32.0 bits (71),  Expect = 7.4, Method: Composition-based stats.
+ Identities = 12/12 (100%), Positives = 12/12 (100%), Gaps = 0/12 (0%)
+
+Query  1    WNCDFSQTATLT  12
+            WNCDFSQTATLT
+Sbjct  421  WNCDFSQTATLT  432
+
+
+>XP_050124391.1 glucan endo-1,3-beta-D-glucosidase-like [Malus sylvestris]
+Length=473
+
+ Score = 32.0 bits (71),  Expect = 7.6, Method: Composition-based stats.
+ Identities = 12/12 (100%), Positives = 12/12 (100%), Gaps = 0/12 (0%)
+
+Query  1    WNCDFSQTATLT  12
+            WNCDFSQTATLT
+Sbjct  443  WNCDFSQTATLT  454
+
+
+>XP_008377338.1 glucan endo-1,3-beta-D-glucosidase-like isoform X1 [Malus domestica]
+Length=473
+
+ Score = 32.0 bits (71),  Expect = 7.7, Method: Composition-based stats.
+ Identities = 12/12 (100%), Positives = 12/12 (100%), Gaps = 0/12 (0%)
+
+Query  1    WNCDFSQTATLT  12
+            WNCDFSQTATLT
+Sbjct  443  WNCDFSQTATLT  454
+
+
+>XP_017633888.1 PREDICTED: glucan endo-1,3-beta-glucosidase 7 [Gossypium arboreum]
+Length=456
+
+ Score = 32.0 bits (71),  Expect = 7.7, Method: Composition-based stats.
+ Identities = 12/12 (100%), Positives = 12/12 (100%), Gaps = 0/12 (0%)
+
+Query  1    WNCDFSQTATLT  12
+            WNCDFSQTATLT
+Sbjct  429  WNCDFSQTATLT  440
+
+
+>XP_031250729.1 glucan endo-1,3-beta-glucosidase 7 [Pistacia vera]
+Length=463
+
+ Score = 32.0 bits (71),  Expect = 7.8, Method: Composition-based stats.
+ Identities = 12/12 (100%), Positives = 12/12 (100%), Gaps = 0/12 (0%)
+
+Query  1    WNCDFSQTATLT  12
+            WNCDFSQTATLT
+Sbjct  436  WNCDFSQTATLT  447
+
+
+>XP_041011169.1 glucan endo-1,3-beta-D-glucosidase-like isoform X1 [Juglans microcarpa 
+x Juglans regia]
+Length=487
+
+ Score = 32.0 bits (71),  Expect = 7.9, Method: Composition-based stats.
+ Identities = 12/12 (100%), Positives = 12/12 (100%), Gaps = 0/12 (0%)
+
+Query  1    WNCDFSQTATLT  12
+            WNCDFSQTATLT
+Sbjct  463  WNCDFSQTATLT  474
+
+
+>XP_022726921.1 glucan endo-1,3-beta-glucosidase 7-like [Durio zibethinus]
+Length=456
+
+ Score = 32.0 bits (71),  Expect = 7.9, Method: Composition-based stats.
+ Identities = 12/12 (100%), Positives = 12/12 (100%), Gaps = 0/12 (0%)
+
+Query  1    WNCDFSQTATLT  12
+            WNCDFSQTATLT
+Sbjct  429  WNCDFSQTATLT  440
+
+
+>XP_021286381.1 glucan endo-1,3-beta-glucosidase 7 [Herrania umbratica]
+Length=459
+
+ Score = 32.0 bits (71),  Expect = 8.1, Method: Composition-based stats.
+ Identities = 12/12 (100%), Positives = 12/12 (100%), Gaps = 0/12 (0%)
+
+Query  1    WNCDFSQTATLT  12
+            WNCDFSQTATLT
+Sbjct  432  WNCDFSQTATLT  443
+
+
+>XP_016691530.2 glucan endo-1,3-beta-glucosidase 7 [Gossypium hirsutum]
+Length=456
+
+ Score = 31.6 bits (70),  Expect = 8.3, Method: Composition-based stats.
+ Identities = 12/12 (100%), Positives = 12/12 (100%), Gaps = 0/12 (0%)
+
+Query  1    WNCDFSQTATLT  12
+            WNCDFSQTATLT
+Sbjct  429  WNCDFSQTATLT  440
+
+
+>XP_012480317.1 PREDICTED: glucan endo-1,3-beta-glucosidase 7 [Gossypium raimondii]
+Length=456
+
+ Score = 31.6 bits (70),  Expect = 8.6, Method: Composition-based stats.
+ Identities = 12/12 (100%), Positives = 12/12 (100%), Gaps = 0/12 (0%)
+
+Query  1    WNCDFSQTATLT  12
+            WNCDFSQTATLT
+Sbjct  429  WNCDFSQTATLT  440
+
+
+>XP_021896664.1 glucan endo-1,3-beta-glucosidase 7 [Carica papaya]
+Length=451
+
+ Score = 31.6 bits (70),  Expect = 8.6, Method: Composition-based stats.
+ Identities = 12/12 (100%), Positives = 12/12 (100%), Gaps = 0/12 (0%)
+
+Query  1    WNCDFSQTATLT  12
+            WNCDFSQTATLT
+Sbjct  424  WNCDFSQTATLT  435
+
+
+>XP_039068577.1 glucan endo-1,3-beta-glucosidase 7-like [Hibiscus syriacus]
+Length=456
+
+ Score = 31.6 bits (70),  Expect = 8.7, Method: Composition-based stats.
+ Identities = 12/12 (100%), Positives = 12/12 (100%), Gaps = 0/12 (0%)
+
+Query  1    WNCDFSQTATLT  12
+            WNCDFSQTATLT
+Sbjct  429  WNCDFSQTATLT  440
+
+
+>XP_016714560.2 glucan endo-1,3-beta-glucosidase 7 [Gossypium hirsutum]
+Length=456
+
+ Score = 31.6 bits (70),  Expect = 8.9, Method: Composition-based stats.
+ Identities = 12/12 (100%), Positives = 12/12 (100%), Gaps = 0/12 (0%)
+
+Query  1    WNCDFSQTATLT  12
+            WNCDFSQTATLT
+Sbjct  429  WNCDFSQTATLT  440
+
+
+>XP_034674207.1 LOW QUALITY PROTEIN: glucan endo-1,3-beta-D-glucosidase [Vitis 
+riparia]
+Length=465
+
+ Score = 31.6 bits (70),  Expect = 9.1, Method: Composition-based stats.
+ Identities = 12/12 (100%), Positives = 12/12 (100%), Gaps = 0/12 (0%)
+
+Query  1    WNCDFSQTATLT  12
+            WNCDFSQTATLT
+Sbjct  438  WNCDFSQTATLT  449
+
+
+>XP_002282736.1 PREDICTED: glucan endo-1,3-beta-D-glucosidase isoform X2 [Vitis 
+vinifera]
+Length=465
+
+ Score = 31.6 bits (70),  Expect = 9.4, Method: Composition-based stats.
+ Identities = 12/12 (100%), Positives = 12/12 (100%), Gaps = 0/12 (0%)
+
+Query  1    WNCDFSQTATLT  12
+            WNCDFSQTATLT
+Sbjct  438  WNCDFSQTATLT  449
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.122    0.461    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1095252681276
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.148    0.507    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.300    0.125    0.302    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=10
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.300    0.129    0.330    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 912710567730
+
+
+Query= ricin 555510
+
+Length=17
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+XP_002522855.2 2S seed storage albumin protein [Ricinus communis]     35.4    0.57 
+XP_002522854.2 2S seed storage albumin protein [Ricinus communis]     35.4    0.59 
+
+
+>XP_002522855.2 2S seed storage albumin protein [Ricinus communis]
+Length=258
+
+ Score = 35.4 bits (80),  Expect = 0.57, Method: Compositional matrix adjust.
+ Identities = 16/17 (94%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    AEDQLQQGQLHGEESER  17
+            AEDQ+QQGQLHGEESER
+Sbjct  117  AEDQIQQGQLHGEESER  133
+
+
+>XP_002522854.2 2S seed storage albumin protein [Ricinus communis]
+Length=258
+
+ Score = 35.4 bits (80),  Expect = 0.59, Method: Compositional matrix adjust.
+ Identities = 16/17 (94%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    AEDQLQQGQLHGEESER  17
+            AEDQ+QQGQLHGEESER
+Sbjct  117  AEDQIQQGQLHGEESER  133
+
+
+
+Lambda      K        H        a         alpha
+   0.298    0.121    0.311    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1551607965141
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.285    0.106    0.213    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.343    0.156    0.548    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.147    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=11
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.109    0.352    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1003981624503
+
+
+Query= ricin 555510
+
+Length=12
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.331    0.143    0.547    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1095252681276
+
+
+Query= ricin 555510
+
+Length=12
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.331    0.143    0.547    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1095252681276
+
+
+Query= ricin 555510
+
+Length=18
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+XP_002522855.2 2S seed storage albumin protein [Ricinus communis]     36.6    0.23 
+XP_002522854.2 2S seed storage albumin protein [Ricinus communis]     36.6    0.24 
+
+
+>XP_002522855.2 2S seed storage albumin protein [Ricinus communis]
+Length=258
+
+ Score = 36.6 bits (83),  Expect = 0.23, Method: Compositional matrix adjust.
+ Identities = 16/18 (89%), Positives = 18/18 (100%), Gaps = 0/18 (0%)
+
+Query  1    LAEDQLQQGQLHGEESER  18
+            +AEDQ+QQGQLHGEESER
+Sbjct  116  IAEDQIQQGQLHGEESER  133
+
+
+>XP_002522854.2 2S seed storage albumin protein [Ricinus communis]
+Length=258
+
+ Score = 36.6 bits (83),  Expect = 0.24, Method: Compositional matrix adjust.
+ Identities = 16/18 (89%), Positives = 18/18 (100%), Gaps = 0/18 (0%)
+
+Query  1    LAEDQLQQGQLHGEESER  18
+            +AEDQ+QQGQLHGEESER
+Sbjct  116  IAEDQIQQGQLHGEESER  133
+
+
+
+Lambda      K        H        a         alpha
+   0.301    0.124    0.319    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1642879021914
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.340    0.152    0.450    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.281    0.104    0.231    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=12
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.331    0.143    0.547    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1095252681276
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.330    0.151    0.491    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.303    0.138    0.403    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=12
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.301    0.111    0.271    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1095252681276
+
+
+Query= ricin 555510
+
+Length=18
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.306    0.124    0.312    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1642879021914
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.305    0.131    0.345    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=14
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.300    0.125    0.332    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1277794794822
+
+
+Query= ricin 555510
+
+Length=13
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+XP_002522856.1 2S seed storage albumin protein-like [Ricinus comm...  33.5    2.1  
+
+
+>XP_002522856.1 2S seed storage albumin protein-like [Ricinus communis]
+Length=147
+
+ Score = 33.5 bits (75),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 13/13 (100%), Positives = 13/13 (100%), Gaps = 0/13 (0%)
+
+Query  1   YYPLCCDHLEQMT  13
+           YYPLCCDHLEQMT
+Sbjct  80  YYPLCCDHLEQMT  92
+
+
+
+Lambda      K        H        a         alpha
+   0.331    0.145    0.557    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1186523738049
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.133    0.380    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.307    0.127    0.431    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.149    0.389    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.149    0.389    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.283    0.102    0.226    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.305    0.131    0.345    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=11
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.301    0.113    0.280    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1003981624503
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.337    0.138    0.567    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=14
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.300    0.118    0.318    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1277794794822
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.130    0.467    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=14
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.300    0.125    0.332    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1277794794822
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.126    0.342    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.139    0.711    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.339    0.146    0.332    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.123    0.346    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.149    0.389    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.334    0.149    0.478    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=11
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.113    0.317    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1003981624503
+
+
+Query= ricin 555510
+
+Length=10
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.125    0.440    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 912710567730
+
+
+Query= ricin 555510
+
+Length=12
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.301    0.111    0.271    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1095252681276
+
+
+Query= ricin 555510
+
+Length=15
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.303    0.122    0.328    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1369065851595
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.342    0.149    0.338    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=10
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.307    0.123    0.404    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 912710567730
+
+
+Query= ricin 555510
+
+Length=11
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.306    0.125    0.407    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1003981624503
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.148    0.432    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.281    0.104    0.231    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.125    0.351    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=18
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.306    0.124    0.312    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1642879021914
+
+
+Query= ricin 555510
+
+Length=11
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.301    0.113    0.280    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1003981624503
+
+
+Query= ricin 555510
+
+Length=15
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.307    0.124    0.320    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1369065851595
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.285    0.106    0.213    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=13
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.300    0.128    0.344    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1186523738049
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.154    0.448    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.343    0.155    0.422    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.302    0.127    0.338    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.306    0.134    0.382    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=10
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.297    0.120    0.307    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 912710567730
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.304    0.135    0.472    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.125    0.351    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.270   0.0855    0.175    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=10
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.134    0.358    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 912710567730
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.121    0.349    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.333    0.156    0.451    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.306    0.134    0.382    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.134    0.396    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=10
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.129    0.373    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 912710567730
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.298    0.112    0.305    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=14
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.300    0.125    0.332    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1277794794822
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.147    0.447    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.331    0.155    0.631    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.329    0.142    0.496    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=17
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+XP_002522854.2 2S seed storage albumin protein [Ricinus communis]     34.3    1.7  
+XP_002522855.2 2S seed storage albumin protein [Ricinus communis]     34.3    1.7  
+
+
+>XP_002522854.2 2S seed storage albumin protein [Ricinus communis]
+Length=258
+
+ Score = 34.3 bits (77),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    EQQQSQGQLQGQDVFEA  17
+            EQQQSQGQLQGQDVFEA
+Sbjct  222  EQQQSQGQLQGQDVFEA  238
+
+
+>XP_002522855.2 2S seed storage albumin protein [Ricinus communis]
+Length=258
+
+ Score = 34.3 bits (77),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    EQQQSQGQLQGQDVFEA  17
+            EQQQSQGQLQGQDVFEA
+Sbjct  222  EQQQSQGQLQGQDVFEA  238
+
+
+
+Lambda      K        H        a         alpha
+   0.303    0.120    0.304    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1551607965141
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.140    0.561    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=10
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.303    0.130    0.371    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 912710567730
+
+
+Query= ricin 555510
+
+Length=10
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.297    0.120    0.307    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 912710567730
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.297    0.113    0.264    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.148    0.474    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.302    0.127    0.338    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.297    0.117    0.293    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.297    0.113    0.264    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.302    0.131    0.370    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.303    0.138    0.403    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.334    0.164    0.565    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.333    0.143    0.437    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.270   0.0855    0.175    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=10
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.134    0.358    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 912710567730
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.334    0.143    0.413    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.358    0.146    0.487    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.296    0.117    0.279    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.302    0.131    0.370    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=10
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.132    0.359    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 912710567730
+
+
+Query= ricin 555510
+
+Length=15
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.307    0.124    0.320    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1369065851595
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.302    0.127    0.338    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=17
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+XP_002522854.2 2S seed storage albumin protein [Ricinus communis]     34.3    1.7  
+XP_002522855.2 2S seed storage albumin protein [Ricinus communis]     34.3    1.7  
+
+
+>XP_002522854.2 2S seed storage albumin protein [Ricinus communis]
+Length=258
+
+ Score = 34.3 bits (77),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    EQQQSQGQLQGQDVFEA  17
+            EQQQSQGQLQGQDVFEA
+Sbjct  222  EQQQSQGQLQGQDVFEA  238
+
+
+>XP_002522855.2 2S seed storage albumin protein [Ricinus communis]
+Length=258
+
+ Score = 34.3 bits (77),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    EQQQSQGQLQGQDVFEA  17
+            EQQQSQGQLQGQDVFEA
+Sbjct  222  EQQQSQGQLQGQDVFEA  238
+
+
+
+Lambda      K        H        a         alpha
+   0.303    0.120    0.304    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1551607965141
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.348    0.145    0.403    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.335    0.142    0.408    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=11
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.148    0.427    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1003981624503
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.336    0.151    0.415    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.349    0.159    0.469    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.293    0.112    0.266    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.299    0.120    0.287    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=11
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.113    0.317    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1003981624503
+
+
+Query= ricin 555510
+
+Length=10
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.342    0.150    0.433    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 912710567730
+
+
+Query= ricin 555510
+
+Length=18
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.306    0.124    0.312    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1642879021914
+
+
+Query= ricin 555510
+
+Length=10
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.132    0.570    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 912710567730
+
+
+Query= ricin 555510
+
+Length=13
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.299    0.118    0.283    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1186523738049
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.330    0.151    0.491    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=12
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.130    0.350    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1095252681276
+
+
+Query= ricin 555510
+
+Length=18
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.306    0.124    0.312    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1642879021914
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.337    0.159    0.476    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=10
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.132    0.570    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 912710567730
+
+
+Query= ricin 555510
+
+Length=14
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.300    0.125    0.332    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1277794794822
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.131    0.373    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=18
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.306    0.124    0.312    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1642879021914
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.302    0.127    0.338    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.336    0.125    0.390    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.135    0.551    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=18
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.306    0.124    0.312    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1642879021914
+
+
+Query= ricin 555510
+
+Length=10
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.132    0.570    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 912710567730
+
+
+Query= ricin 555510
+
+Length=10
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.118    0.349    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 912710567730
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.296    0.117    0.279    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.302    0.131    0.370    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.330    0.151    0.491    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.307    0.119    0.456    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.125    0.461    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.120    0.292    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=8
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.342    0.158    0.451    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 730168454184
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.133    0.355    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.140    0.386    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=11
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.332    0.125    0.346    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1003981624503
+
+
+Query= ricin 555510
+
+Length=10
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.132    0.570    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 912710567730
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.137    0.616    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=15
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.307    0.124    0.320    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1369065851595
+
+
+Query= ricin 555510
+
+Length=17
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+XP_002522854.2 2S seed storage albumin protein [Ricinus communis]     34.3    1.7  
+XP_002522855.2 2S seed storage albumin protein [Ricinus communis]     34.3    1.7  
+
+
+>XP_002522854.2 2S seed storage albumin protein [Ricinus communis]
+Length=258
+
+ Score = 34.3 bits (77),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    EQQQSQGQLQGQDVFEA  17
+            EQQQSQGQLQGQDVFEA
+Sbjct  222  EQQQSQGQLQGQDVFEA  238
+
+
+>XP_002522855.2 2S seed storage albumin protein [Ricinus communis]
+Length=258
+
+ Score = 34.3 bits (77),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  1    EQQQSQGQLQGQDVFEA  17
+            EQQQSQGQLQGQDVFEA
+Sbjct  222  EQQQSQGQLQGQDVFEA  238
+
+
+
+Lambda      K        H        a         alpha
+   0.303    0.120    0.304    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1551607965141
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.303    0.138    0.403    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=11
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.305    0.129    0.291    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1003981624503
+
+
+Query= ricin 555510
+
+Length=10
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.333    0.137    0.383    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 912710567730
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.139    0.372    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=11
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.331    0.132    0.364    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1003981624503
+
+
+Query= ricin 555510
+
+Length=10
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.329    0.127    0.354    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 912710567730
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.124    0.324    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.138    0.375    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.302    0.131    0.370    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=10
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.134    0.358    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 912710567730
+
+
+Query= ricin 555510
+
+Length=11
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.331    0.148    0.490    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1003981624503
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.329    0.148    0.415    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.336    0.161    0.461    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.140    0.386    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.297    0.113    0.264    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.303    0.138    0.403    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=10
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.134    0.358    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 912710567730
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.135    0.357    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.285    0.106    0.213    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=10
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.134    0.358    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 912710567730
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.297    0.113    0.264    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.138    0.389    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=14
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.300    0.125    0.332    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1277794794822
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.285    0.106    0.213    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.121    0.349    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.138    0.344    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.133    0.391    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.303    0.138    0.403    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.138    0.344    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.297    0.113    0.264    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.121    0.349    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.124    0.392    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.302    0.131    0.370    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.296    0.117    0.279    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.302    0.131    0.370    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.302    0.131    0.370    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.285    0.106    0.213    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=14
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.300    0.125    0.332    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1277794794822
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.121    0.349    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=9
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.302    0.127    0.338    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 821439510957
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.303    0.138    0.403    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.297    0.113    0.264    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.297    0.113    0.264    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.302    0.131    0.370    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=5
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.138    0.344    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 456355283865
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.307    0.125    0.275    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+Query= ricin 555510
+
+Length=7
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.307    0.129    0.332    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 638897397411
+
+
+Query= ricin 555510
+
+Length=6
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.302    0.131    0.370    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 547626340638
+
+
+  Database: NCBI Protein Reference Sequences
+    Posted date:  Nov 21, 2022  4:50 PM
+  Number of letters in database: 91,271,056,773
+  Number of sequences in database:  236,694,025
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

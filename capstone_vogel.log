@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.5)  25 NOV 2022 10:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.5)  10 DEC 2022 11:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -584,7 +584,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.136 \end{abstract}
+l.137 \end{abstract}
                      [1] (./capstone_vogel.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 2.
@@ -600,82 +600,79 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.142 \chapter
+l.143 \chapter
               {Introduction} [1
 
 ]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 143.
+(hyperref)                be the same. Added a new anchor on input line 144.
 
 [2
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 210.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 211.
 (/home/danvogel/.TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [3]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 231.
+(hyperref)                be the same. Added a new anchor on input line 232.
 
 [4
 
 ]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 256.
+(hyperref)                be the same. Added a new anchor on input line 259.
 
 [5
 
 ] [6]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 314.
+(hyperref)                be the same. Added a new anchor on input line 317.
 
 [7
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 372.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 378.
 (/home/danvogel/.TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Overfull \hbox (12.05489pt too wide) in paragraph at lines 391--391
+Overfull \hbox (12.05489pt too wide) in paragraph at lines 397--397
 [] \T1/lmtt/m/n/7 >db|UniqueIdentifier|EntryName ProteinName OS=OrganismName OX=OrganismIdentifier [GN=GeneName ]PE=ProteinExistence SV=SequenceVersion[] 
  []
 
 
-Overfull \hbox (8.32912pt too wide) in paragraph at lines 391--391
+Overfull \hbox (8.32912pt too wide) in paragraph at lines 397--397
 [] \T1/lmtt/m/n/7 >tr|B9RAM4|B9RAM4_RICCO 26S proteasome non-atpase regulatory subunit, putative OS=Ricinus communis OX=3988 GN=RCOM_1507340 PE=4 SV=1[] 
  []
 
 [8]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 395.
+(hyperref)                be the same. Added a new anchor on input line 401.
 
 <figures/parse_fasta.png, id=161, 452.4102pt x 340.99396pt>
 File: figures/parse_fasta.png Graphic file (type png)
 <use figures/parse_fasta.png>
-Package pdftex.def Info: figures/parse_fasta.png  used on input line 407.
+Package pdftex.def Info: figures/parse_fasta.png  used on input line 414.
 (pdftex.def)             Requested size: 486.25554pt x 366.50412pt.
-
-Overfull \hbox (12.19765pt too wide) in paragraph at lines 424--447
- [][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 [9
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.455 
+l.431 
        <./figures/parse_fasta.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 466--473
+Overfull \hbox (12.19765pt too wide) in paragraph at lines 436--459
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 478--485
 
  []
 
@@ -683,16 +680,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 466--473
 pdfTeX warning (ext4): destination with the same identifier (name{table.0.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.473 \newpage
+l.485 \newpage
               ] [11
 pdfTeX warning (ext4): destination with the same identifier (name{table.0.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.533 \chapter
+l.545 \chapter
               {Summary and Future Work}]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 535.
+(hyperref)                be the same. Added a new anchor on input line 547.
 
 [12
 
@@ -700,12 +697,12 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 <figures/kegg/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55_org_heatmap_min_o_1_min_p_1.jpeg, id=181, 722.7pt x 505.89pt>
 File: figures/kegg/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55_org_heatmap_min_o_1_min_p_1.jpeg Graphic file (type jpg)
 <use figures/kegg/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55_org_heatmap_min_o_1_min_p_1.jpeg>
-Package pdftex.def Info: figures/kegg/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55_org_heatmap_min_o_1_min_p_1.jpeg  used on input line 561.
+Package pdftex.def Info: figures/kegg/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55_org_heatmap_min_o_1_min_p_1.jpeg  used on input line 573.
 (pdftex.def)             Requested size: 316.05916pt x 221.24141pt.
 <figures/uniprot/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55_org_heatmap_min_o_1_min_p_1.png, id=182, 722.7pt x 505.89pt>
 File: figures/uniprot/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55_org_heatmap_min_o_1_min_p_1.png Graphic file (type png)
 <use figures/uniprot/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55_org_heatmap_min_o_1_min_p_1.png>
-Package pdftex.def Info: figures/uniprot/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55_org_heatmap_min_o_1_min_p_1.png  used on input line 567.
+Package pdftex.def Info: figures/uniprot/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55_org_heatmap_min_o_1_min_p_1.png  used on input line 579.
 (pdftex.def)             Requested size: 316.05916pt x 221.24141pt.
 [13
 
@@ -713,159 +710,159 @@ Package pdftex.def Info: figures/uniprot/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.571 \newpage
+l.583 \newpage
               
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.571 \newpage
+l.583 \newpage
                <./figures/kegg/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55_org_heatmap_min_o_1_min_p_1.jpeg> <./figures/uniprot/Rcom_9_M4_AM_R1_7Mar16_Samwise_15-08-55_org_heatmap_min_o_1_min_p_1.png>]
 <figures/kegg/Rcom_GCH4_1_2_03Jun16_Samwise_16-03-32_org_heatmap_min_o_1_min_p_1.jpeg, id=189, 722.7pt x 505.89pt>
 File: figures/kegg/Rcom_GCH4_1_2_03Jun16_Samwise_16-03-32_org_heatmap_min_o_1_min_p_1.jpeg Graphic file (type jpg)
 <use figures/kegg/Rcom_GCH4_1_2_03Jun16_Samwise_16-03-32_org_heatmap_min_o_1_min_p_1.jpeg>
-Package pdftex.def Info: figures/kegg/Rcom_GCH4_1_2_03Jun16_Samwise_16-03-32_org_heatmap_min_o_1_min_p_1.jpeg  used on input line 575.
+Package pdftex.def Info: figures/kegg/Rcom_GCH4_1_2_03Jun16_Samwise_16-03-32_org_heatmap_min_o_1_min_p_1.jpeg  used on input line 587.
 (pdftex.def)             Requested size: 316.05916pt x 221.24141pt.
 <figures/uniprot/Rcom_GCH4_1_2_org_heatmap_min_o_1_min_p_1.png, id=190, 722.7pt x 505.89pt>
 File: figures/uniprot/Rcom_GCH4_1_2_org_heatmap_min_o_1_min_p_1.png Graphic file (type png)
 <use figures/uniprot/Rcom_GCH4_1_2_org_heatmap_min_o_1_min_p_1.png>
-Package pdftex.def Info: figures/uniprot/Rcom_GCH4_1_2_org_heatmap_min_o_1_min_p_1.png  used on input line 581.
+Package pdftex.def Info: figures/uniprot/Rcom_GCH4_1_2_org_heatmap_min_o_1_min_p_1.png  used on input line 593.
 (pdftex.def)             Requested size: 316.05916pt x 221.24141pt.
 [14
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.585 \newpage
+l.597 \newpage
               
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.585 \newpage
+l.597 \newpage
                <./figures/kegg/Rcom_GCH4_1_2_03Jun16_Samwise_16-03-32_org_heatmap_min_o_1_min_p_1.jpeg> <./figures/uniprot/Rcom_GCH4_1_2_org_heatmap_min_o_1_min_p_1.png>]
 <figures/kegg/55551-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg, id=197, 722.7pt x 505.89pt>
 File: figures/kegg/55551-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg Graphic file (type jpg)
 <use figures/kegg/55551-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg>
-Package pdftex.def Info: figures/kegg/55551-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg  used on input line 589.
+Package pdftex.def Info: figures/kegg/55551-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg  used on input line 601.
 (pdftex.def)             Requested size: 316.05916pt x 221.24141pt.
 <figures/uniprot/555510-DeNovo_org_heatmap_min_o_1_min_p_1.png, id=198, 722.7pt x 505.89pt>
 File: figures/uniprot/555510-DeNovo_org_heatmap_min_o_1_min_p_1.png Graphic file (type png)
 <use figures/uniprot/555510-DeNovo_org_heatmap_min_o_1_min_p_1.png>
-Package pdftex.def Info: figures/uniprot/555510-DeNovo_org_heatmap_min_o_1_min_p_1.png  used on input line 595.
+Package pdftex.def Info: figures/uniprot/555510-DeNovo_org_heatmap_min_o_1_min_p_1.png  used on input line 607.
 (pdftex.def)             Requested size: 316.05916pt x 221.24141pt.
 [15
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.599 \newpage
+l.611 \newpage
               
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.599 \newpage
+l.611 \newpage
                <./figures/kegg/55551-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg> <./figures/uniprot/555510-DeNovo_org_heatmap_min_o_1_min_p_1.png>]
 <figures/kegg/555558-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg, id=205, 722.7pt x 505.89pt>
 File: figures/kegg/555558-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg Graphic file (type jpg)
 <use figures/kegg/555558-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg>
-Package pdftex.def Info: figures/kegg/555558-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg  used on input line 605.
+Package pdftex.def Info: figures/kegg/555558-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg  used on input line 617.
 (pdftex.def)             Requested size: 316.05916pt x 221.24141pt.
 <figures/uniprot/555558-DeNovo_org_heatmap_min_o_1_min_p_1.png, id=206, 722.7pt x 505.89pt>
 File: figures/uniprot/555558-DeNovo_org_heatmap_min_o_1_min_p_1.png Graphic file (type png)
 <use figures/uniprot/555558-DeNovo_org_heatmap_min_o_1_min_p_1.png>
-Package pdftex.def Info: figures/uniprot/555558-DeNovo_org_heatmap_min_o_1_min_p_1.png  used on input line 612.
+Package pdftex.def Info: figures/uniprot/555558-DeNovo_org_heatmap_min_o_1_min_p_1.png  used on input line 624.
 (pdftex.def)             Requested size: 316.05916pt x 221.24141pt.
 [16
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.616 \newpage
+l.628 \newpage
               
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.9}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.616 \newpage
+l.628 \newpage
                <./figures/kegg/555558-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg> <./figures/uniprot/555558-DeNovo_org_heatmap_min_o_1_min_p_1.png>]
 <figures/kegg/Fish-DeNove_org_heatmap_min_o_1_min_p_3.jpeg, id=213, 722.7pt x 505.89pt>
 File: figures/kegg/Fish-DeNove_org_heatmap_min_o_1_min_p_3.jpeg Graphic file (type jpg)
 <use figures/kegg/Fish-DeNove_org_heatmap_min_o_1_min_p_3.jpeg>
-Package pdftex.def Info: figures/kegg/Fish-DeNove_org_heatmap_min_o_1_min_p_3.jpeg  used on input line 626.
+Package pdftex.def Info: figures/kegg/Fish-DeNove_org_heatmap_min_o_1_min_p_3.jpeg  used on input line 638.
 (pdftex.def)             Requested size: 316.05916pt x 221.24141pt.
 <figures/uniprot/Fish-DeNove_org_heatmap_min_o_1_min_p_1.png, id=214, 722.7pt x 505.89pt>
 File: figures/uniprot/Fish-DeNove_org_heatmap_min_o_1_min_p_1.png Graphic file (type png)
 <use figures/uniprot/Fish-DeNove_org_heatmap_min_o_1_min_p_1.png>
-Package pdftex.def Info: figures/uniprot/Fish-DeNove_org_heatmap_min_o_1_min_p_1.png  used on input line 632.
+Package pdftex.def Info: figures/uniprot/Fish-DeNove_org_heatmap_min_o_1_min_p_1.png  used on input line 644.
 (pdftex.def)             Requested size: 316.05916pt x 221.24141pt.
 [17
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.10}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.637 \newpage
+l.649 \newpage
               
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.11}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.637 \newpage
+l.649 \newpage
                <./figures/kegg/Fish-DeNove_org_heatmap_min_o_1_min_p_3.jpeg> <./figures/uniprot/Fish-DeNove_org_heatmap_min_o_1_min_p_1.png>]
 <figures/kegg/Juice-DeNovo_org_heatmap_min_o_4_min_p_4.jpeg, id=223, 722.7pt x 505.89pt>
 File: figures/kegg/Juice-DeNovo_org_heatmap_min_o_4_min_p_4.jpeg Graphic file (type jpg)
 <use figures/kegg/Juice-DeNovo_org_heatmap_min_o_4_min_p_4.jpeg>
-Package pdftex.def Info: figures/kegg/Juice-DeNovo_org_heatmap_min_o_4_min_p_4.jpeg  used on input line 643.
+Package pdftex.def Info: figures/kegg/Juice-DeNovo_org_heatmap_min_o_4_min_p_4.jpeg  used on input line 655.
 (pdftex.def)             Requested size: 316.05916pt x 221.24141pt.
 <figures/uniprot/Juice-DeNovo_org_heatmap_min_o_1_min_p_1.png, id=224, 722.7pt x 505.89pt>
 File: figures/uniprot/Juice-DeNovo_org_heatmap_min_o_1_min_p_1.png Graphic file (type png)
 <use figures/uniprot/Juice-DeNovo_org_heatmap_min_o_1_min_p_1.png>
-Package pdftex.def Info: figures/uniprot/Juice-DeNovo_org_heatmap_min_o_1_min_p_1.png  used on input line 649.
+Package pdftex.def Info: figures/uniprot/Juice-DeNovo_org_heatmap_min_o_1_min_p_1.png  used on input line 661.
 (pdftex.def)             Requested size: 316.05916pt x 221.24141pt.
 [18
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.12}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.653 \newpage
+l.665 \newpage
               
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.13}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.653 \newpage
+l.665 \newpage
                <./figures/kegg/Juice-DeNovo_org_heatmap_min_o_4_min_p_4.jpeg> <./figures/uniprot/Juice-DeNovo_org_heatmap_min_o_1_min_p_1.png>]
 <figures/kegg/Milk-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg, id=231, 722.7pt x 505.89pt>
 File: figures/kegg/Milk-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg Graphic file (type jpg)
 <use figures/kegg/Milk-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg>
-Package pdftex.def Info: figures/kegg/Milk-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg  used on input line 659.
+Package pdftex.def Info: figures/kegg/Milk-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg  used on input line 671.
 (pdftex.def)             Requested size: 316.05916pt x 221.24141pt.
 <figures/uniprot/Milk-DeNovo_org_heatmap_min_o_0_min_p_0.png, id=232, 722.7pt x 505.89pt>
 File: figures/uniprot/Milk-DeNovo_org_heatmap_min_o_0_min_p_0.png Graphic file (type png)
 <use figures/uniprot/Milk-DeNovo_org_heatmap_min_o_0_min_p_0.png>
-Package pdftex.def Info: figures/uniprot/Milk-DeNovo_org_heatmap_min_o_0_min_p_0.png  used on input line 665.
+Package pdftex.def Info: figures/uniprot/Milk-DeNovo_org_heatmap_min_o_0_min_p_0.png  used on input line 677.
 (pdftex.def)             Requested size: 316.05916pt x 221.24141pt.
 [19
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.14}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.669 \newpage
+l.681 \newpage
               
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.15}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.669 \newpage
+l.681 \newpage
                <./figures/kegg/Milk-DeNovo_org_heatmap_min_o_1_min_p_1.jpeg> <./figures/uniprot/Milk-DeNovo_org_heatmap_min_o_0_min_p_0.png>]
 <figures/kegg/Oyster-DeNovo_org_heatmap_min_o_5_min_p_3.jpeg, id=239, 722.7pt x 505.89pt>
 File: figures/kegg/Oyster-DeNovo_org_heatmap_min_o_5_min_p_3.jpeg Graphic file (type jpg)
 <use figures/kegg/Oyster-DeNovo_org_heatmap_min_o_5_min_p_3.jpeg>
-Package pdftex.def Info: figures/kegg/Oyster-DeNovo_org_heatmap_min_o_5_min_p_3.jpeg  used on input line 675.
+Package pdftex.def Info: figures/kegg/Oyster-DeNovo_org_heatmap_min_o_5_min_p_3.jpeg  used on input line 687.
 (pdftex.def)             Requested size: 316.05916pt x 221.24141pt.
 <figures/uniprot/Oyster-DeNovo_org_heatmap_min_o_1_min_p_1.png, id=240, 722.7pt x 505.89pt>
 File: figures/uniprot/Oyster-DeNovo_org_heatmap_min_o_1_min_p_1.png Graphic file (type png)
 <use figures/uniprot/Oyster-DeNovo_org_heatmap_min_o_1_min_p_1.png>
-Package pdftex.def Info: figures/uniprot/Oyster-DeNovo_org_heatmap_min_o_1_min_p_1.png  used on input line 681.
+Package pdftex.def Info: figures/uniprot/Oyster-DeNovo_org_heatmap_min_o_1_min_p_1.png  used on input line 693.
 (pdftex.def)             Requested size: 316.05916pt x 221.24141pt.
 [20
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.16}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.686 \chapter*{References}\label{references}}
+l.698 \chapter*{References}\label{references}}
                                               
 pdfTeX warning (ext4): destination with the same identifier (name{figure.0.17}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.686 \chapter*{References}\label{references}}
+l.698 \chapter*{References}\label{references}}
                                                <./figures/kegg/Oyster-DeNovo_org_heatmap_min_o_5_min_p_3.jpeg> <./figures/uniprot/Oyster-DeNovo_org_heatmap_min_o_1_min_p_1.png>] [21
 
 ] (./capstone_vogel.aux)
@@ -875,13 +872,13 @@ Package rerunfilecheck Info: File `capstone_vogel.out' has not changed.
 Here is how much of TeX's memory you used:
  13389 strings out of 476931
  214862 string characters out of 5825076
- 556585 words of memory out of 5000000
+ 557585 words of memory out of 5000000
  34286 multiletter control sequences out of 15000+600000
  528604 words of font info for 73 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  72i,9n,77p,536b,457s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/home/danvogel/.TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/home/danvogel/.TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</home/danvogel/.TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></home/danvogel/.TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></home/danvogel/.TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb></home/danvogel/.TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb></home/danvogel/.TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb></home/danvogel/.TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb></home/danvogel/.TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt8.pfb>
-Output written on capstone_vogel.pdf (23 pages, 4576342 bytes).
+Output written on capstone_vogel.pdf (23 pages, 4577074 bytes).
 PDF statistics:
  320 PDF objects out of 1000 (max. 8388607)
  260 compressed objects within 3 object streams
